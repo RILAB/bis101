@@ -90,8 +90,11 @@ Retrotransposition
 ###Impacts 2
 
 New regulatory sequences (hopscotch tb1)
+
 Rearrangement due to excision (recombination etc.) moves regulatory element
+
 Exapted transposase (VDJ example)
+
 Exon shuffling by reverse transcriptase
 
 ###Impacts 3
@@ -100,7 +103,7 @@ Recombination between TEs leads to genomic rearrangements
 - gene loss
 - translocations
 
-recombination within TEs mechanism for TE removal
+Recombination within TEs mechanism for TE removal -- solo LTR
 
 ###Impacts 4
 
