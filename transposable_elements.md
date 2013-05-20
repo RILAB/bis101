@@ -158,6 +158,16 @@ RAG proteins are coopted immobile versions of a TE w/ transposase
 
 Different RSS interact w/ RAG in diff. cells for ~3×10^11 possibilities
 
+### Placenta!
+
+MER20 TEs unique to non-placental mammals
+
+Insertion of mer20 insulates chromsomes from spreading heterochromatin
+
+Also containt binding sites for transcription factors imp. for regulating genes upregulated in placenta and during pregnancy
+
+MER20 insertions thought to have rewired and patterned gene expression network in placental mammals
+
 ### Drosophila P
 
 not found in wild in early 20th century, now in 100% of Drosophila in wild
