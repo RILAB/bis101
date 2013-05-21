@@ -10,17 +10,17 @@ Varies 2000-fold in plants, from 64Mb in Genlisea to 120GB in Fritilleria (Human
 
 No correlation in eukaryotes with number of genes (but pro vs. eu)
 
+No correlation in eukaryotes with number of genes (but pro vs. eu)
+
 	So what is rest of genome? "Junk DNA" 
-	Nematode ~5-10%, drosophila ~15%, humans ~50% repetitive/TE, maize  85%
-    Some is simple repeats
-        telmoere, centromere repeats       
-    Most of it is TE
+	Nematode ~5-10%, drosophila ~15%, humans ~50%, maize  85%
+	Some is simple repeats: telomere, centromere. Most of it is TE
 
 ###Genome size & TEs in plants
 
 Genome size and repeat % in plants. 
 
-Majorit of plant DNA in world is TEs
+Majority of plant DNA in world is TEs
 
 ##Transposable Elements
 
