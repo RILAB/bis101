@@ -22,6 +22,8 @@ Genome size and repeat % in plants.
 
 Majorit of plant DNA in world is TEs
 
+Jeff is rad
+
 ##Transposable Elements
 
 ###Types
