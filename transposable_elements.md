@@ -6,14 +6,14 @@
 
 Genome size not correlate strongly with complexity (eukaryotes): C-value paradox
  
-Varies 2000-fold in plants, from 64Mb in Genlisea to 120GB in Fritilleria (Humans are ~3Gb) Arabidopsis 120Mb, Pine trees 25Gb, Maize ~2.5Gb
+Varies 2000-fold in plants, from 64Mb in Genlisea to 120GB in Fritilleria (Humans are ~3Gb) Arabidopsis 120Mb, Rice, 400Mb, Pines 25Gb, Maize ~2.5Gb
 
 No correlation in eukaryotes with number of genes (but pro vs. eu)
 
 No correlation in eukaryotes with number of genes (but pro vs. eu)
 
 	So what is rest of genome? "Junk DNA" 
-	Nematode ~5-10%, drosophila ~15%, humans ~50%, maize  85%
+	E. coli ~1% or less, Nematode ~5-10%, drosophila ~15%, humans ~50%, maize  85%
 	Some is simple repeats: telomere, centromere. Most of it is TE
 
 ###Genome size & TEs in plants
