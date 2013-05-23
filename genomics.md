@@ -22,10 +22,15 @@ example of sexy dates:
 - looked for markers who tracked sex along pedigree
 - identified sex chromosomes
 
-##How to sequence a genome
-shotgun
+##Genetic vs. Physical Maps
 
-	why difficult to assemble repeats?
+explain each
+
+	how to connect (restriction enzymes, DNA seq. markers)
+
+explain big physical, small genetics -> low recombination
+
+
 
 ## Genomes as refs. genomic annotation
 
@@ -39,14 +44,10 @@ show added features
 
 show methlyation status, nucleosome occupancy (may vary)
 
-##Genetic vs. Physical Maps
+##How to sequence a genome
+shotgun
 
-explain each
-
-	how to connect (restriction enzymes, DNA seq. markers)
-
-explain big physical, small genetics -> low recombination
-
+	why difficult to assemble repeats?
 ##Variation
 	what's missing from reference genomes?
 
