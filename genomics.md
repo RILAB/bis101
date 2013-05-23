@@ -1,15 +1,27 @@
 #Genomics
 
+what is "the genome"?
+
+there's a reference, but lots of variation
+
+human example w/ SNPs
+
+maize example w/ missing sequence
+
+what is missing from the "reference" genome
+
+
+
 ##How to sequence a genome
 
 shotgun
 
 why difficult to assemble repeats?
 
-what is a genome sequence?
+what's missing from reference genomes?
 
-what is the reference genome?
+- centromeres
+- heterochromatin
+- telomeres
+- duplicate genes/paralogs
 
-what is missing from the "reference" genome
-
- -in maize
