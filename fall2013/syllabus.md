@@ -85,7 +85,6 @@
 	Reverse Genetics	
 	- transformation
 		- proof tb1 is the locus
-
 	- enhancer bashing
 		- proof Hopscotch is causative
 
