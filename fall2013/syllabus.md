@@ -1,41 +1,88 @@
-##Lecture Mendelian Inheritance
+1. ## Mendelian Inheritance
+	Chapter 2
 
-##Lecture More Mendel?
+1. ## Independent Assortment
+	Chapter 3
 
-##Lecture Gene Interaction
+1. ## Gene Interaction
+	Chapter 6
 
-##Lecture Population Genetics
+1. ## Genetic Mapping
+	Chapter 4
 
-##Lecture Quantitative Genetics
+1. ## Quantitative Genetics
+	Chapter 19
 
-##Lecture Control of Gene Expression
+1. ## Population Genetics
+	Chapter 18
 
-##Lecture Transposable Elements
+1. ## Phylogenetics
+	Chapters 14, 20
 
-##Lecture Genomics
+1. ## Chromosomal Evolution
+	Chapter 17
 
-##Lecture Chromosomal Evolution
+1. ## Case Study: tb1
+	### Reading: Studer et al. 2011 Nature Genetics
+	Phenotype
+		- phenotype in teosinte
+		- phenotype in maize
+		- causative mutation in teosinte
+		- multiple alleles and effects
+	Mapping
+		- mode of action
+		- complementation
+		- QTL
+		- fine mapping
+	Popgen
+		- selection on tb1
+		- standing variation in teosinte
+		- introgression
+	Phylogenetics
+		- role in other grasses
+		- orthology etc.
 
+1. ## DNA
+	Chapter 7
 
-##Lecture Genetic Mapping
+1. ## Mutation & recombination
+	Chapter 16 
 
-##Lecture Forward and Reverse Genetics
+1. ## RNA
+	Chapter 8
 
-##Lecture DNA
+1. ## Control of Gene Expression
+	Chapters 11, 12
 
-##Lecture RNA
+1. ## Proteins
+	Chapter 9
 
-##Lecture Proteins
+1. ## Transposable Elements
+	Chapter 15
 
-##Lecture Linkage Mapping
+1. ## Gene Isolation and Manipulation
+	Chapter 10
 
-##Lecture Development
+1. ## Development
+	Chapter 13
 
-##Lecture Phylogenetics
+1. ## Forward and Reverse Genetics	
 
-##Lecture Case Study: tb1
+1. ## Genomics
+	Possible Reading: Slatkin HWE paper?
+	Chapter 14
 
+1. ## Case Study: tb1
+	Forward genetics
+		- TE tagging
+			- this is how went from QTL -> gene
+	Reverse Genetics	
+		- transformation
+			- proof tb1 is the locus
+		- enhancer bashing
+			- proof Hopscotch is causative
+	Development
+	Pathway
 
-##Lecture 19
-
-##Lecture 20
+## Notes
+	Do stickleback for second case study?
