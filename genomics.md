@@ -156,5 +156,10 @@ explain tandem vs. dispersed duplication
 
 talked about inversions, duplications, polyploidy, translocations
 
+define **synteny**
+
+- physical co-localization of genetic loci on the same chromosome
+
 explain graph
 
+shows SH1 and how synteny identifies functional locus
