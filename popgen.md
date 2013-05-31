@@ -10,7 +10,8 @@ change in frequency of an allele over time (not the same as natural selection)
 
 - A1A1 20 A1A2 13 A2A2 17
 - what's the genotype frequency of A1A1? 40% (20/50)
-- what is the allele frequency of A2 (47% or 0.47 because 34+13/100)
+- what is the allele frequency of A2 (p=47% or 0.47 because 34+13/100)
+- what is the frequency of A1? (1-p)=0.53 b/c has to add to 1
     
 I come back in 10 years, pop is now A1A1 80 A1A2 52 and A2A2 68 
 
@@ -76,7 +77,16 @@ Gamete Table | prob. A1 from mom | prob A2 from mom
 prob A1 from dad | p\*p | p\*(1-p)  
 prob A2 from dad | (1-p)\*p | (1-p)\*(1-p) 
 
-so genotpye freq of A1A1 in next generation? 0.36!
+use prime to denote next generation
+
+X'=p^2
+Y'=p(1-p)
+Z'=(1-p)^2
+
+and p'=X'+Y'/2
+
+and substituting: p'=p^2+2*p(1-p)/2 = p <- equilibrium
+
 
 ** In HWE, genetic composition (genotype and allele freqs) predictable w/ one parameter -> p **
             
@@ -88,101 +98,68 @@ After a single generation of random mating -> HWE
 
 #### Conclusions
 
+Single generation of random mating will almost always -> HWE
+
+- start with 0.2 AA and 0.8 aa -> figure out p and p' -> HWE in one generation
+
+Once in HWE, allele freqs don't change except from outside force
+
+Allele frequencies
+
 Rare alleles more common in hets (p^2 < 2pq for whenever p < q)
+
+![Alt text](/Users/jri/src/bis101/HWE.pdf)
 
 Does dominance change HWE?
 - no because we haven't said anything about phenotype -- just genotype
             
 Surprising # of loci in diff. organisms cannot reject HWE 
 - does this mean no selection, drift, mutation?  why not?
-    How to test if in HWE?
-    Violate an assumption
-        can show effects of violating an assumption (nonequal # of sexes etc.)
-        some assumptions have sm. FX (nonequal sexes, takes longer than 1 gen of random mating to reach HWE but you still reach it; drift or selection -> never reach)
-        nonrandom mating -- inbreeding
-            decrease in He over expectations
-                He=1-sum(pi^2) from i=1 to n alleles
-            good discussion on inbreeding in the book (read it)
-                covers the fixation index, not selfing
-            under selfing, s=selfing rate. X'=X+Ys/4 (why over 4?); Y'=2pq(1-s)+Ys/2, what's Z' = (Z + Ys/4)
-    I. What bout popgen at linked loci?
-        A. linkage (what does it mean? generally physical, but other factors can cause what looks like linkage)
-            1. causes nonrandom assoc. called LD
-    II. Why care?
-        A.  mapping 
-            1. for mutations in complex traits, most important feature of genome
-        B. history
-            1. demography, structure, selection 
-        C. side effects
-            1. if you want to know about locus A, better understand evol. at loci linked to locus A
-    III. What is LD?
-        A. nonrandom association of alleles at two loci -- if nonrandom assoc., loci are "in LD"
-        B. unlinked loci
-            1. haplotype  (define?): combination of alleles at multiple loci along a stretch of chromosomes -- a haplotype
-                a. worst words in popgen, poorly defined
-                b. here the alleles contained by a single haploid genome (e.g a gamete)
-            2. for two biallelic loci unlinked, 4 gametes (which?)
-                a. Ab AB ab AB
-            3. locus 1: A and a w/ freqs p_A and (1-p_A)
-            4. locus 2: B and b w/ freqs p_B and (1-p_B)
-            5. freqs of gametic haps if unlinked
-Hap
-Exp. freq.
-AB
-p_Ap_B
-Ab
-p_A(1-p_B)
-aB
-(1-p_A)p_B
-ab
-(1-p_A)(1-p_B)
 
-            6. when observed = this, gamete phase equilibrium (linkage equil)
-                a. if not, we say LD
-                b. not the same as HWE -- not arrived at in one generation if out of Equil. (but eventually)
-                c. but it is an equil. -- under W-F w/ inf. N, once reached what happens? stay same 
-    IV. measuring LD
-        A. for two biallelic loci
-    V. How to get LD?
-        A. mutation 
-            1. origin of all LD is mutation (draw: pop of ab & Ab mutates Ab->AB now you have LD until recombine)
-        B. demography:
-            1. admixture ancestor ab -> Ab and ab->aB  now all 1st gen will be Ab/aB and no AB gametes until recombination
-                a. HWE formulas in book used to calculate probability one pop or another, can also identify admixted inds.
-                b. e.g. African Americans in US -> can use methods based on LD and HWE to date admix events
-            2. other demography (Slatkin) i.e. bottlenecks
-        C. selection
-            1. let's say ab gametes lethal (gametes die)
-            2. Example  (freqs after?) p_A=0.75 p_B=0.6
-Hap
-freq. before
-freq after
-ab
-0.1
-0
-aB
-0.15
-0.167
-AB
-.45
-0.5
-Ab
-.3
-0.333
+####How to test if in HWE?
 
-            3. D_ab (before) = 0 (D before?)
-            4. D_ab (after) = -0.056 (too few AB haps) (D after? interpr?)
-            5. selection can cause LD, even for loci on diff. csomes
-        D. mating system
-            1. if things self, no chance for gametes to recombine
-    VI. How to lose LD
-        A. LD breaks down as things recombine
-        B. 1-c = prob. no crossover; do some math (use t+1 because ' is confusing here)
-            1. LD decays at rate dependent on crossovers. 
-            2. this is why things closer together are usually in higher LD and how you map stuff
-            3. LD in Drosophila decays (to 1/2 value) after ~500bp
-            4. in maize ~1kb (teosinte <500bp)
-            5. humans ~ 10's of kb or more
-            6. why dif?  higher recombo and bigger pop sizes (remember slatkin, pop size matters)
+Chi-sq? 
+
+- Sum (Obs-Exp)^2/(Exp)
+- (if X^2 > 3.84 is statistically significant at p=0.05)
+
+- e.g.sample AA= 72 (68.1) Aa = 21 (28.9) aa = 7 (3.1)
+ 
+	- X^2 >7.28 so not in HWE (tell them to show for selves)
+- e.g. AA= 82 Aa = 38  aa = 5
+
+	- is in nigh-perfect HWE (test it)
+
+####Violate an assumption
+
+Can show effects of violating an assumption (nonequal # of sexes etc.)
+
+Some assumptions have sm. FX 
+
+- nonequal sexes, takes longer than 1 gen of random mating to reach HWE but still reach it 
+- drift or selection -> never reach)
 
 
+#### nonrandom mating -- inbreeding
+
+decrease in (2p(1-p)) beyond expectations
+
+can use inbreeding coefficient F to detect
+
+- F = 1-Ho/He = 1 - (obs # heterozygotes)/(expected number) = 1-X/2p(1-p)
+- F is probability of IBD (identity by descent) 
+- probability that allele picked at random from each individual is identical               
+                
+Relationship | prob. 0 alleles | 1 allele | 2 alleles | F
+--- | --- | --- | --- | ---
+parent-child | 0 | 1 | 0 | 1/4  
+parent-child | 1/4 | 1/2 | 1/4 | 1/4  
+parent-child | 0 | 0 | 1 | 1/4  
+1st cousins | 3/4 | 1/4 | 0 | 1/16
+
+#### Generalized HWE
+
+Gamete Table | prob. A1 from mom | prob A2 from mom
+--- | --- | ---
+prob A1 from dad | p\*p+F\*p | p\*(1-p)\*(1-F)  
+prob A2 from dad | (1-p)\*p\*(1-F) | (1-p)\*(1-p)F\*(1-p)
