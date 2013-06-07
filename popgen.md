@@ -345,6 +345,9 @@ Fitness | w11 | w12 | w22
  
 relative fitness of AA is w_AA 
 
+- not faster than the bear, faster than the other guy
+
+
 mean fitness of populatons is weighted avg.
 
 wbar = p^2w11+2p(1-p)w12+(1-p)^2w22
