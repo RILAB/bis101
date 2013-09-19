@@ -2,11 +2,30 @@
 
 ## Schedule
 
-030 Monday 031 Monday 032 Wednesday 033 Wednesday
-4:10-5:00 p.m., Wellman 7 3:10-4:00 p.m., Wellman 25 2:10-3:00 p.m., Wellman 7 3:10-4:00 p.m., Wellman 7
-(B. Hazard) (B. Hazard) (P. Bilinski) (P. Bilinski)
+###BIS101 
+TR 6:10 - 8:00 PM
+GIEDT 1001	  
 
-
+###BIS101D
+* Section 20 
+	- 5:10-6pm R
+	- Wellman 229
+* Section 21 
+	- 4:10-5pm R
+	- Wellman 229	
+* Section 22 
+	- 9-9:50am F
+	- Wellman 233
+* Section 23 
+	- 10-10:50am F
+	- Wellman 233
+* Section 24 
+	- 11-11:50am F
+	- Wellman 7
+* Section 25 
+	- 12:10-1pm F
+	- Wellman 233
+		
 ## Instructors
 
 ###Dr. Jeffrey Ross-Ibarra
@@ -21,11 +40,10 @@
 	Email: pbilinski@ucdavis.edu
 	Office hours: Tuesday 1-2pm and Wednesday 9-10am 
 
-
 ####Laura Vann
 	262B Robbins Hall
 	Email: levann@ucdavis.edu
-	Office hours: Tuesday 11:00 a.m.-12:00 p.m. 1:00-2:00 p.m. 
+	Office hours: Tuesday 5-6PM and Thursday 3-4PM 
 
 ##Text
 **Required:** Griffiths A, Wessler SR, Carroll SB, and Doebley J. Introduction to Genetic Analysis. New York: W.H. Freeman, 2012. 10th Edition.
@@ -90,12 +108,12 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 ### Tuesday Oct. 1
 * **Independent Assortment**
 * Reading: Griffiths Ch. 3
-* Reading: Crismani et al. 2012
+* Reading: [Liu et al. 2012](http://schnablelab.plantgenomics.iastate.edu/personnel/individual.php?email=yangjl@iastate.edu)
 
 ### Thursday Oct. 3
 * **Gene Interaction**
 * Reading: Griffiths Ch. 6
-* Reading: Crismani et al. 2012
+* Reading: [Liu et al. 2012](http://schnablelab.plantgenomics.iastate.edu/personnel/individual.php?email=yangjl@iastate.edu)
 * Homework Questions: 
 	- Ch. 4: 25, 45, 63
 	- Ch. 6: 36, 62
@@ -103,12 +121,12 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 ### Tuesday Oct. 8
 **Genetic Mapping**
 * Reading: Griffiths Ch. 4
-* Reading: Schemske and Bradshaw 1999
+* Reading: [Schemske and Bradshaw 1999](http://www.pnas.org/content/96/21/11910.full.pdf)
 
 ### Thursday Oct. 10
 * **Quantitative Genetics**
 * Reading: Griffiths Ch. 19
-* Reading: Schemske and Bradshaw 1999
+* Reading: [Schemske and Bradshaw 1999](http://www.pnas.org/content/96/21/11910.full.pdf)
 * Homework Questions: TBA
 
 ### Tuesday Oct. 15
@@ -126,7 +144,6 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 * **Chromosomal Evolution**
 * Reading: Griffiths Ch. 17
 * Reading: [Studer et al. 2011](http://www.panzea.org/pdf/Studer_etal_2011_Nat_Genet_43_1160.pdf)
-
 
 ### Thursday Oct. 24
 * **Case Study: *tb1***
@@ -156,7 +173,7 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 * Reading: [TBA](Blah)
 
 ### Tuesday Nov. 12
-* **Ppoteins**
+* **Proteins**
 * Reading: Griffiths Ch. 9
 * Reading: [TBA](Blah)
 
@@ -191,7 +208,7 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 * Reading: Griffiths Ch. 2
 * Reading: [TBA](Blah)
 
-### Thursday Dec. 4
+### Thursday Dec. 5
 * **Case Study: ZMCCT**
 * Reading: Griffiths Ch. 2
 * Reading: [TBA](Blah)
