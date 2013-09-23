@@ -68,7 +68,7 @@ Grading in the course will consist of two exams, homework, and class participati
 
 Grading will be a on a strict curve, such that the top 15% of students will get an A, the next 25% a B, the next 40% a C, and the remaining 20% D or F.
 
-![Grading Curve](./mages/curve.pdf "Grading Curve")
+![Grading Curve](./images/curve.pdf "Grading Curve")
 
 ## Exams
 Both exams will be take-home exams. Your textbook, the internet, and your notes are all acceptable sources of information for the takehome exam, but discussion of the exam or collaboration with other students is not acceptable. Electronic copies of the exam must be turned in via SmartSite. The second exam is not cumulative. Exam dates are in the course outline below. While scans of handwritten exams are acceptable, illegible answers will not be graded.
