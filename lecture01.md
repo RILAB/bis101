@@ -1,139 +1,213 @@
-#BIS101 F2013 Lecture 1
+#BIS101 F2013 Lecture 1: Introduction
 
 ##Syllabus
 		
 * #### Instructors
 	- me: evolutionary genetics, genomcis of maize (bias)
+		* good news: i like genetics! bad news: first time through
 	- contact info (email, website, twitter, office hours)
 	- TA introduction, contact info, office hours
 
 * #### Text
- - John/Sue 
-
+	- John/Sue
+	
 * #### Lectures
 	- some book material responsible
+	- some book material can skip
 	- concepts not memorization (example of midterm Spring 2013)
+	- my philosophy: general concepts, you can look stuff up
 * #### Grading
 * #### Exams
+	- also example of philosophy!
 * #### Homework
+	- For this week:
+		- Ch. 2: 23,38,48,49,54
+		- Ch. 3: 13,20,32,28,46
 * #### Class Participation
 * #### Academic honesty
 * #### Email Policy
 * #### Twitter
 
-## Genetics
+<!--##Central Dogma 
+Gene DNA -> transcription -> RNA -> translation -> protein -> stuff happens
 
-#### Definitions
+![Central Dogma](./images/centraldogma.gif)
+-->
+## Definitions
+
+Lots of vocab today.
 
 <strong style="font-size: 150%; color: red;">?</strong> Gene (draw example)
 
 * a piece of DNA that encodes transcribed sequence (and linked regulatory stuff)
-* regulatory elements (such as?) what about regulatory elements far away? (tb1 example)
+* regulatory elements (such as?) what about regulatory elements far away? (polydactyly example)
+* show box/line drawing (make me explain if not clear!)
  
 <strong style="font-size: 150%; color: red;">?</strong> Locus
 
 * a particular region of DNA of interest
+* from chromosome to bp
 
 <strong style="font-size: 150%; color: red;">?</strong> Allele
 
 * a particular variant at a locus
+* examples -- 3 alleles at gene
+	- TE insertion
+	- syn bp change
+	- frameshift del 1bp
 
 <strong style="font-size: 150%; color: red;">?</strong> Phenotype
 
 * what something looks like (molecular, morphology, enzyme, etc.)
+* form taken by a trait. e.g. if trait is height phenotype can be tall, short, 145cm, etc
 
 <strong style="font-size: 150%; color: red;">?</strong> Genotype
 
 * alleles at a locus or loci of interest (including whole genome)
 
-Omes: Genome, transcriptome, proteome, metabolome, etc.
+<strong style="font-size: 150%; color: red;">?</strong> Omes: Genome, transcriptome, proteome, metabolome, etc.
 
 * lots of bad omes: "connectome" -- map of synapses and neurons etc.
 
-## Organization & Ploidy
-
-####Basic 
-Gene DNA -> transcription -> RNA -> translation -> protein -> stuff happens
-
-![Central Dogma](./images/centraldogma.gif)
+<!--## Organization & Ploidy
  
-Genes in order along chromosomes
-        fig. 1-7 (gene spacing)
-        draw genes along dna in maize, w/ lots of TEs
-        
-        will discuss more on genome organization later
-    genes in DNA -> wrapped around nucleosomes -> organized into chromatin -> chromosomes
-    draw chromosome X, show centromere telomere
-    why draw as an X? -> two copies of same come, one from mom one from dad -> homologs or homologous csomes
-    why 2? diploid
-        haploid? tetraploid? define polyploid
-        n=haploid number
-        x=basal number
-        2n=2x=20 in maize (how many different csomes?)
-        2n=2x=46 in humans?
-        2n=6x=42 in wheat?  explain?  hexaploid, what's the base number?  what would a diploid have?
-Crosses
-    fundamental to lots of genetic analysis
-    understand gene action, segregation, dissect genotypes
-    usually consider diploid individuals
-    two alleles at the locus, written with abbreviations
-        Aa BgBg etc.  Big A ≠ dominant!
-        define: heterozygote, homozygote
-    draw cross Bb x BB
-        we'll call the brown locus, with alleles B and b
-        if B is a mutation that creates a failed protein, we can have a Bb genotype
-            if Bb is functional, the gene is haplosufficient 
-            if Bb is nonfunctional — fails to produce protein or do something, the gene is haploinsufficient
-            what's a mutation?
-                any change to the DNA sequence 
-                    nucleotide change (creates a SNP)
-                    insertion/deletion (creates an indel)
-                    Transposon
-                    duplication, inversion, translocation, etc. etc. (will cover later)
-        Mendel's first law of equal segregation 50% B 50% b
-        if we assume b dominant to B
-            what's dominant mean? 
-            recessive? 
-            codominant?
-        label parental, fileal generation
-        test cross of some line to a homozygous recessive (the tester)
-            NOT the same as a tester in plant breeding necessarily
-        monoybrid cross? two hets. (say, two F1's)
-        are all F1's alike?  
-        ratios to remember  (show punnet square)
-            3:1 (Bb X Bb) -- BB 2Bb bb   — single locus, 1 allele dominant in monohybrid cross
-            1:1 (Bb X BB) — test cross, single locus, 1 allele dominant
-            1:2:1 (Bb X Bb) — codominant or incomplete dominant monohybrid cross (red, pink, white)
-            Note that the 3:1 PHENOTYPE ratio is actually a 1:2:1 GENOTYPE ratio
-    Know your mitosis and meiosis (not covering it here)
-Other forms of inhertiance:
-    organellar
-        mitochrondria — respiration?
+####Organization 
+
+Genes not islands, but linked together along chromosomes
+
+* point out "junk" DNA that we'll return to
+	      
+<img src="./griffiths/ch01/figure_01_07.jpg" style="width: 400px;"/>
+
+We will discuss genome organziation more later, but
+
+Genes in DNA -> wrapped around nucleosomes -> organized into chromatin -> chromosomes
+
+Draw chromosome X, show centromere telomere
+
+What does it mean to draw a chromosome like this? 
+
+Two identical copies of same chromosome, called **sister chromatids**
+
+But we actually have two different copies of the chromsomes, one from each parent.  **homologs** or **homologous chromosomes** 
+
+Why 2? Humans are diploid. Meaning <strong style="font-size: 150%; color: red;">?</strong> 
+
+<strong style="font-size: 150%; color: red;">?</strong> Haploid? 
+<strong style="font-size: 150%; color: red;">?</strong> Tetraploid? 
+
+Ploidy:
+
+* n=haploid number
+* x=basal number
+* 2n=2x=20 in maize (how many different csomes <strong style="font-size: 150%; color: red;">?</strong>)
+* 2n=2x=<strong style="font-size: 150%; color: red;">?</strong> 46 in humans
+* 2n=6x=42 in wheat?  explain <strong style="font-size: 150%; color: red;">?</strong>  hexaploid      -->  
+
+## Mitosis and Meiosis
+
+Nope, I assume you know: (if not come to office hours or TA)
+
+* When can recombination happen? 
+* Which process producess identical cells vs. different cells?
+* What is the number and ploidy of cells produced at the end?
+* Know main stages
+
+## Genotypes and crosses
+
+Crosses are fundamental to lots of genetic analysis, to understand gene action, segregation, dissect genotypes
+
+Often consider **diploid** individuals (but **haploid** bacteria too)
+
+* two alleles at a locus, written with abbreviations
+	- A/a, Bg/Bg etc.  
+* <strong style="font-size: 150%; color: red;">?</strong> define: **heterozygote**, **homozygote**
+* **WT** weird term to mean the "normal" allele or phenotype
+* origin of variation by mutation: <strong style="font-size: 150%; color: red;">?</strong> what's a mutation?
+	- any change to the DNA sequence
+	- SNP
+	- indel
+	- TE
+	- chromosomal
+* **Dominance:** the phenotype of het == phenotype of one hom.
+	- Big A ≠ dominant!
+	- if we know phenotype, but not genotype, can draw e.g. A/-
+	- Bob+/Bob+ == Bob+/Bob-, the gene is **haplosufficient**. If not, **haploinsufficient**.
+	- **incomplete dominance** is phenotype is partial
+	- **codominance** both alleles show up (we will come back to these)
+* **testcross:** cross the dominant phenotype back to recessive homozygote **tester**
+* **backcross:** cross progeny back to parent (ok in corn, we don't do crosses in humans!)
+* **monoybrid cross** cross two indidividuals that are each het for a single locus. dihybrid, trihybrid etc.
+
+#### tga1 Locus
+
+Locus controls glume architecture in maize.  
+
+What's a glume? Ever eaten an ear of corn and had a thick hard covering break your tooth? No? Because maize doesn't have one. But teosinte (the wild ancestor of corn) does.
+
+Lets imagine two individuals. Maize is diploid, so each has two alleles. Alleles tga1 (teosinte) and Tga1 (maize) 
+
+**Good example of a detail I don't care if you know!**
+
+Attempt to draw phenotypes for each genotype (Tga1/Tga1 naked, tga1/tga1 covered, het intermediate)
+
+<strong style="font-size: 150%; color: red;">?</strong> Which is tga1? (haploinsufficient)
+
+## Mendel's first law 
+
+Mendel crossed some peas. Figured out genetics.
+
+<strong style="font-size: 150%; color: red;">?</strong> First law: equal segregation. Alleles at a locus segregate w/ equal probability. An A/a individual will produce 50% A and 50% a.
+
+#### Cross two corn plants
+
+Tga1/Tga1 x tga1/tga1 
+	* label **parental**, **fileal** generation
+	* <strong style="font-size: 150%; color: red;">?</strong> are all F1 alike?
+	       
+Draw Punnett square for tga1, show phenotypes. 1:2:1 -> codominant or incomplete dominance.
+
+Redo for CENH3+. Show dominance. Then explain lethality. 3:1 dominance. 2:1 lethality!
+
+Don't memorize these (might be useful but not necessary). You can look 'em up and figure 'em out.
+
+## Other forms of inhertiance:
+
+#### organellar
+	mitochrondria — respiration?
             almost always maternal
         chloroplast -- photosynthesis?
             almost always maternal (paternal in conifers)
-    Sex linked
-        humans have X and Y
-            how passed on?
-            some plants have sex chromosomes!
-            Silene laitfolia (XX female, XY male) — even sexually transmitted disease which is a smut fungus travels on pollen
-            even plants without sex chromosomes have sexes
-                hermaphroditic
-                monoecious — one house (separate flowers, same plant)
-                dioecious — two houses (separate flowers, separate plants)
-                gynodioecious — females and hermaphrodites
-Don't worry too much about sex-linkage, pedigree analysis, or and nothing about human/drosophila/etc will be on the test.
+#### Sex linked
 
+above we have considered non-sex chromosomes, also called **autosomes**
 
-Lecture 2: Ch. 3 MendelBook should be on reserve now at libraryalso added Raven "Biology of Plants". Ch. 3, 8-12 are the most relevant for this class (but may be a while to be included)Messages tool online to help exchange info for your discussion partner Answers for today's discussion — about 1/3 of you didn't post — easy pointsOffice hours — nobody came, different time (I said wrong time in class on Monday)Schedule will be somewhat fluid until last set of folks add/drop Fewer students -> fewer discussions (none on midterms)Questions on lecture from yesterday? Mendel's First law:Equal segregation (which is?) Example: Ch. 2 # 41￼￼￼￼￼￼￼￼￼￼￼￼￼￼
-Example: Ch. 2 # 41In the plant Arabidopsis thaliana, a geneticist is interested in the development of trichomes (define). A large screen turns up two mutant plants (A and B) that have no trichomes, and these mutants seem to be potentially useful in studying trichome development. Each plant is crossed with wild type; in both cases, the next generation (F1) had normal trichomes. When F1 plants were selfed, the resulting F2’s were as follows:F2 from mutant A: 602 normal; 198 no trichomes F2 from mutant B: 267 normal; 93 no trichomesa. What do these results show? Include proposed genotypes of all plants in your answer.b. Under your explanation to part a, is it possible to confidently predict the F1 from crossing the original mutant A with the original mutant B?Mendel's Second Law:Independent assortment (which is?) (unlinked genes assort independently)￼￼￼￼￼￼
-￼Independent assortment (which is?) (unlinked genes assort independently)Workthrough.Describe parents phenotype . Ask gametes. Ask F1. Draw Punnett square. Get phenotype s. Show monohybri d 3:1, dihybrid 9:3:3:1work out all 16 progeny, then can figure out phenotype based on whatyou know of dominant/recessive Predictions: probabilitytwo independent events -> multipleAaBb chance of getting an ab gamete? 1/4! AaBbCcDd -> 1⁄2^4 -> 1/16two mutually exclusive eventschance of getting A or a from AaBb (1) chance of getting AB, Ab, aB, or ab ? (1)Example: tb1-wt/tb1-ref;Wxy/wxy;adh1/adh1; which is dominant? (i didn't say)￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼
-￼which is dominant? (i didn't say)if I self, what's the chance of getting a tb1-ref/tb1-ref;wxy/wxy;adh1/ adh1 (1⁄2*1⁄2)*(1⁄2*1⁄2)=1/16=6.25%what's chance of getting tb1-ref/tb1-ref;wxy/wxy;adh1/Adh1 (0 unless mutation)how many progeny will i have to grow to get the genotype above @ 90% certainty?what's probability of not getting progeny i want (15/16)what's the probability of getting my progeny if I grow 3 plants?1-(15/16)^3=17.6% what if I grow n plants?1-(15/16)^nSo to get 90% certainty, I solve:1-(15/16)^n=0.9(15/16)^n=0.1n(ln(15/16))=ln(0.1) n=ln(0.1)/ln(0.9375)=35.7 -> 36 plantsReality never perfect (267 normal; 93 in problem above — not 270 vs. 90)so how know if close enough? Chi-squared test (responsible at least conceptually)i expect 270:90; i observe 267:93Sum((E-O)^2/E); compare to table with df (degrees freedom?)number of phenotypic classes -1 (here 1)sum = 0.13, 1 df,from table, to be significant at p=0.05 (i.e. <5% chance of observing data) need 3.841.so what do you conclude? (can't reject null hypothesis of expectation), that is 3:1 is an OK way of describing thisredo yourself with 244:104. should show the predicted ratio for 3:1 is: 261:87 (why not 270:90??)value is 4.43 -> reject 3:1 ratio!￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼
-value is 4.43 -> reject 3:1 ratio!Page 91-92 has nice text on the creation of pure lines using these probabilitiese.g. after 1 generation of selfing, a locus Aa has a 50% (what chance) chance of being homozygous?so after 8 generations 0.4% of all heterozygous cites in the genome should remain heterozygous (show yourself)heterosis = hybrid vigor (observed result, not well understood molecular basis)so why do offspring of hybrids suck? because they loseheterozygosity at 50% of loci!Polygenic inheritance: Mendelian & Quantitative traitsqualitative (red or green, wrinkled, round, etc. discrete states) usually simple genetic basis -- one or two genesquantitative traits (plant height, seed weight, #of trichomes, etc.) not discreteusually complex genetic basis -- many genes quant vs. qualearly history of genetics biometricians thought everything was quantitative and studying continuous diversity and Mendelians thought everything was single-gene discrete1918 Fisher showed the two things were the sameQuantitative traits plant heighttreat as discrete trait. tall vs. shortcodominant -- additive -- so each A contributes 1 cm to height aa plants are 5cm tall, Aa 6, AA 7 -- so 3 possible heights and one way to get each (draw as # ways)so what would dominant A look like?aa 5cm Aa 7cm AA 7cmnow make two genes, both additive, each adds 1A locus, B locus (make table of genotype, phenotype)￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼
-A locus, B locus (make table of genotype, phenotype)a/a;b/b 5; a/A;b/b 6; A/A;b/b 7; a/a;B/b 6; a/a;B/B 7; a/A;b/B 7; A/A;b/B 8; a/A;B/B 8; A/A;B/B 9can get intermediate in crosses, and transgressive segregationAabb (6) x AaBb (7) -> AABb (8) and aabb (5) and aaBb (6 but different genotype)AABB (9) x aabb (5) -> all AaBb (7)draw as # ways — how many different ways of getting a phenotype (one 5, two 6's, three 7's, two 8's, one 9) imagine you have 100 genes, each contributing different amount to plant height!looks like a "bell curve" or normal distribution quantitative traitstatistically, you assume a quant. trait is controlled by an infinite number of genes (called quantitative trait loci or QTL that are additive and of small effect (can change all this and include epistasis, etc. etc. but much of the statistics is based on this) note that each individual gene is a normal Mendelian locus (point out A's and B's)some real traits have been shown like this -- flowering time in maizeothers not so much -- fruit size in tomato single gene 30% of effect, branching in maize also lg. % of effect single geneGoal of association mapping and QTL mapping is to find the genesthat underly such a trait. RecombinationWe've done a lot with independent assortment — what assumption? what does that mean physically?things on different chromosomes, or far enough apartwhat about things that are close together — called linked sometimes will go together, sometimes apart —read up on ch. 4 for details￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼
-sometimes will go together, sometimes apart —read up on ch. 4 for detailspaper today uses identification of non-independent assortment to place genes on same chromosome arms￼
+humans have two sex chromosomes X and Y. 1 from each parent, but XX is female, XY male. 
 
-                    
+* some plants have sex chromosomes! (and sexually transmitted diseases!)
+* instead of heterozygote or homozygote we say heterogametic or homogametic
+* works same, but genes on X ≠ Y
+
+Drosophila also have XY system
+
+* Draw Punnet square for w+/w+ Drosophila female (red WT) x w male
+* Compare to square for w+ male x w/w/ female
+* For both show color, sex of F1 and F2 products
+
+Reciprocal crosses not same for sex-linked traits
+
+Not all F1 will be the same
+
+Ratios not the same because gene is not present on both chromosomes.          
+
+## Pedigrees
+
+Draw pedigree, w/ male (square) female (circle), offspring.
+
+Affected filled, unaffected empty.
+
+Practice working with these, and calculating probabilities (we'll come back to prob next time)
+                                  
 ## How to read a scientific paper
 
 Begin with the intro:

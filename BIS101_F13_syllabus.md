@@ -32,7 +32,7 @@ Giedt 1001
 	262A Robbins Hall
 	Email: rossibarra@ucdavis.edu 
 	Twitter: @jrossibarra
-	Office hours: Friday 11am-12pm, 1:30-2:30pm
+	Office hours: Monday and Friday 10am-11am
 
 ###Teaching assistants:
 
