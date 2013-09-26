@@ -12,6 +12,7 @@
 	- John/Sue
 	
 * #### Lectures
+	- note lecture order is not same as book order!
 	- some book material responsible
 	- some book material can skip
 	- concepts not memorization (example of midterm Spring 2013)
@@ -27,6 +28,9 @@
 * #### Academic honesty
 * #### Email Policy
 * #### Twitter
+	- particularly tweets favorited by other students
+* #### Feedback
+	- constructive always welcome
 
 <!--##Central Dogma 
 Gene DNA -> transcription -> RNA -> translation -> protein -> stuff happens
