@@ -16,7 +16,9 @@
 	- some book material responsible
 	- some book material can skip
 	- concepts not memorization (example of midterm Spring 2013)
-	- my philosophy: general concepts, you can look stuff up
+	- my philosophy: appreciate genetics, know general concepts, can look rest up
+	- lecture notes on github: not for students, but pull requests!
+	- I suspect lectures will be pretty easy.
 * #### Grading
 * #### Exams
 	- also example of philosophy!
@@ -25,6 +27,8 @@
 		- Ch. 2: 23,38,48,49,54
 		- Ch. 3: 13,20,32,28,46
 * #### Class Participation
+	- How many have read a scientific paper from the primary research lit?
+	- I said lectures are gonna be easy. Homework is a gimme. This is gonna be hard.
 * #### Academic honesty
 * #### Email Policy
 * #### Twitter
@@ -32,11 +36,10 @@
 * #### Feedback
 	- constructive always welcome
 
-<!--##Central Dogma 
-Gene DNA -> transcription -> RNA -> translation -> protein -> stuff happens
+## Reading
 
-![Central Dogma](./images/centraldogma.gif)
--->
+For Tuesday can skip section 3.4
+
 ## Definitions
 
 Lots of vocab today.
@@ -139,7 +142,7 @@ Often consider **diploid** individuals (but **haploid** bacteria too)
 	- Bob+/Bob+ == Bob+/Bob-, the gene is **haplosufficient**. If not, **haploinsufficient**.
 	- **incomplete dominance** is phenotype is partial
 	- **codominance** both alleles show up (we will come back to these)
-* **testcross:** cross the dominant phenotype back to recessive homozygote **tester**
+* **testcross:** cross the dominant phenotype back to recessive homozygote **tester** to test it's genotype
 * **backcross:** cross progeny back to parent (ok in corn, we don't do crosses in humans!)
 * **monoybrid cross** cross two indidividuals that are each het for a single locus. dihybrid, trihybrid etc.
 
@@ -173,16 +176,21 @@ Draw Punnett square for tga1, show phenotypes. 1:2:1 -> codominant or incomplete
 
 Redo for CENH3+. Show dominance. Then explain lethality. 3:1 dominance. 2:1 lethality!
 
+Note the reciprocity of the cross. Doesn't matter if mom is Tga1 parent or tga1 parent.
+
 Don't memorize these (might be useful but not necessary). You can look 'em up and figure 'em out.
 
-## Other forms of inhertiance:
+## Other forms of inheritance:
 
 #### organellar
-	mitochrondria — respiration?
-            almost always maternal
-        chloroplast -- photosynthesis?
-            almost always maternal (paternal in conifers)
-#### Sex linked
+
+mitochrondria — <strong style="font-size: 150%; color: red;">?</strong> respiration
+* chloroplast <strong style="font-size: 150%; color: red;">?</strong> photosynthesis
+* both are maternally inherited usually (pines, cpdna = paternal)
+* both haploid: <strong style="font-size: 150%; color: red;">?</strong> what does that mean for dominance/recessive?
+* both can exhibit variegation -- multiple types in a single cell. Variegated plants are a good example.
+
+#### sex linked
 
 above we have considered non-sex chromosomes, also called **autosomes**
 
