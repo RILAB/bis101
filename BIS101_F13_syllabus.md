@@ -144,23 +144,23 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 ### Tuesday Oct. 22
 * **Chromosomal Evolution**
 * Reading: Griffiths Ch. 17
-* Reading: (other tb1 paper)
+* Reading: [Ibarra-Laclette et al. 2013](http://www.nature.com/nature/journal/v498/n7452/full/nature12132.html)
 
 ### Thursday Oct. 24
 * **Case Study: *tb1***
-* Reading: (other tb1 paper)
+* Reading: [Ibarra-Laclette et al. 2013](http://www.nature.com/nature/journal/v498/n7452/full/nature12132.html)
 * Homework Questions: TBA
 
 ### Tuesday Oct. 29
 * **DNA**
 * Reading: Griffiths Ch. 7
-* Reading: [TBA](Blah)
+* Reading: [Baudat et al. 2009](http://www.sciencemag.org/content/327/5967/836.long)
 
 ### Thursday Oct. 31
 * **Mutation and Recombination**
 * Reading: Griffiths Ch. 16
 * Homework Questions: TBA
-* Reading: [TBA](Blah)
+* Reading: [Baudat et al. 2009](http://www.sciencemag.org/content/327/5967/836.long)
 
 ### Tuesday Nov. 5
 * **RNA**
