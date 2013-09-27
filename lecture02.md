@@ -1,8 +1,26 @@
 #BIS101 F2013 Lecture 2: Mendel
 
-##Reading for next time:
+## Reading for next time:
 
-Skip 4.3,4.4,
+Skip 4.3,4.4
+
+## Notes from last time
+
+Tga1/tga1 like A/a
+
+Side board hard to see -- yell or raise a hand.
+
+Questions, just ask, raise a hand!
+
+Homework due at beginning
+
+Papers are on smartsite or linked
+
+Genotype vs. phenotype -- always keep in mind which we are talking about. Genotype ratios will diff. from phenotype ratios.
+
+Dash vs. minus for phenotypes
+
+Mitochondrial replication genes are mitochondrial, control of when the replicate can be nuclear.
 
 ## Questions?
 
@@ -14,7 +32,7 @@ Equal segregation (which is?) Example: Ch. 2 # 41
 	In the plant Arabidopsis thaliana, a geneticist is interested in the development of trichomes (define). A large screen turns up two mutant plants (A and B) that have no trichomes, and these mutants seem to be potentially useful in studying trichome development. Each plant is crossed with wild type; in both cases, the next generation (F1) had normal trichomes. When F1 plants were selfed, the resulting F2’s were as follows:
 	F2 from mutant A: 602 normal; 198 no trichomes F2 from mutant B: 267 normal; 93 no trichomes.
 
-Draw hairy WT, and glabrous normal. Show F1 and F2.
+Draw hairy WT, and glabrous normal. Show F1 and F2. Ask phenotype of F1 (can't know! b/c mutant could be het. for dom. allele).
 
 	a. What do these results show? Include proposed genotypes of all plants in your answer.
 
