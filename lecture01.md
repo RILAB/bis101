@@ -13,15 +13,17 @@
 	
 * #### Lectures
 	- note lecture order is not same as book order!
-	- some book material responsible
-	- some book material can skip
+	- some book material responsible (mitosis and meiosis)
+	- some book material can skip (section on bears in ch. 2)
 	- concepts not memorization (example of midterm Spring 2013)
 	- my philosophy: appreciate genetics, know general concepts, can look rest up
 	- lecture notes on github: not for students, but pull requests!
 	- I suspect lectures will be pretty easy.
 * #### Grading
+	- Top 50% A or B
 * #### Exams
-	- also example of philosophy!
+	- takehome: also example of philosophy!
+	- no date yet, probably Oct. 24 or 31.
 * #### Homework
 	- For this week:
 		- Ch. 2: 23,38,48,49,54
@@ -34,7 +36,7 @@
 * #### Twitter
 	- particularly tweets favorited by other students
 * #### Feedback
-	- constructive always welcome
+	- constructive always welcome: pull requests, suggested order, topics, style, etc.
 
 ## Reading
 
@@ -180,15 +182,15 @@ Note the reciprocity of the cross. Doesn't matter if mom is Tga1 parent or tga1 
 
 Don't memorize these (might be useful but not necessary). You can look 'em up and figure 'em out.
 
+## Pedigrees
+
+Draw pedigree, w/ male (square) female (circle), offspring.
+
+Affected filled, unaffected empty.
+
+Practice working with these, and calculating probabilities (we'll come back to prob next time)
+
 ## Other forms of inheritance:
-
-#### organellar
-
-mitochrondria — <strong style="font-size: 150%; color: red;">?</strong> respiration
-* chloroplast <strong style="font-size: 150%; color: red;">?</strong> photosynthesis
-* both are maternally inherited usually (pines, cpdna = paternal)
-* both haploid: <strong style="font-size: 150%; color: red;">?</strong> what does that mean for dominance/recessive?
-* both can exhibit variegation -- multiple types in a single cell. Variegated plants are a good example.
 
 #### sex linked
 
@@ -206,19 +208,58 @@ Drosophila also have XY system
 * Compare to square for w+ male x w/w/ female
 * For both show color, sex of F1 and F2 products
 
+<img src="./griffiths/ch02/figure_02_19.jpg" style="width: 500px;"/>
+
 Reciprocal crosses not same for sex-linked traits
 
 Not all F1 will be the same
 
 Ratios not the same because gene is not present on both chromosomes.          
 
-## Pedigrees
+#### organellar
 
-Draw pedigree, w/ male (square) female (circle), offspring.
+Mitochondria and chloroplast
+eukaryotes defined by presence of nucleus and organelles
 
-Affected filled, unaffected empty.
+***Endosymbiosis***
+first eukaryotes likely formed as infoldings -> nucleus
 
-Practice working with these, and calculating probabilities (we'll come back to prob next time)
+both mito and chloro originated as endosymbionts
+alpha-protobacteria or cyano taken up by archaea
+	* ribulose-1,5-biphosphate caroxylase oxygenase (top left)
+	* needed for photosynthesis, ~50% protein plants
+	* most abundant protein on earth (**good guess on protein question test**)
+	* made up of rbcL in chloroplast and rbcS subunit in nucleus
+
+aquisition of mito due to respiration in increasingly oxygenated environ.
+as oxygen increased in atmosphere -> aerobic respiration a plus
+
+some euks (giardia & some amoeba) have subsequently lost mito
+
+some lineages took up cyanobacteria -> photosynthesize
+
+#### Crosses and inheritance 
+heteroplasmy vs. homoplasmy  
+
+by random replication/division 
+
+In plants, variegated branch flowers -> green/white/var. offspring  
+
+mito in mammals -- always maternal
+
+so mitochondrial diseases (some deafness, muscle myopathy)
+
+<img src="./images/mito_pedigree.pdf" style="width: 500px;"/>
+
+**homoplasmy** and **heteroplasmy** which helps explain incomplete penetrance
+
+Not always maternal
+
+- redwoods both male
+- some pine trees, cpDNA male, mtDNA female
+- mussels have double uniparental: F mito is maternal, M mito is paternal
+
+
                                   
 ## How to read a scientific paper
 
