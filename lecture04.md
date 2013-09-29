@@ -1,5 +1,13 @@
 #BIS101 F2013 Lecture 4: Genetic Mapping 
 
+## Reading for next time:
+
+Include Section 3.4 of ch. 3
+
+## Notes/Questions?
+
+
+
 ## Recombination<strong style="font-size: 150%; color: red;">?</strong> What does independent assortment mean physicall?
 
 Different chromosomes, or far enough apart.

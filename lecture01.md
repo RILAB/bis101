@@ -171,8 +171,8 @@ Mendel crossed some peas. Figured out genetics.
 #### Cross two corn plants
 
 Tga1/Tga1 x tga1/tga1 
-	* label **parental**, **fileal** generation
-	* <strong style="font-size: 150%; color: red;">?</strong> are all F1 alike?
+* label **parental**, **fileal** generation
+* <strong style="font-size: 150%; color: red;">?</strong> are all F1 alike?
 	       
 Draw Punnett square for tga1, show phenotypes. 1:2:1 -> codominant or incomplete dominance.
 
