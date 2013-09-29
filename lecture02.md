@@ -1,9 +1,5 @@
 #BIS101 F2013 Lecture 2: Mendel
 
-## Reading for next time:
-
-Skip 4.3,4.4
-
 ## Notes from last time
 
 Tga1/tga1 like A/a
@@ -56,7 +52,11 @@ Work through example.
 * Show monohybrid 3:1, 
 * dihybrid 9:3:3:1
 
+Don't worry about Dihbyrid ratios with sex vs. autosomal loci
+
 ## Predictions: probability
+
+Useful for studying pedigress, for knowing proportions of offspring, gamete production, etc.
 
 **Product rule:** 
 
@@ -123,8 +123,6 @@ How many progeny will i have to grow to get the tb1-ref/tb1-ref;wxy/wxy;adh1/ ad
 	- n(ln(15/16))=ln(0.1) 
 	- n=ln(0.1)/ln(0.9375)=35.7 == 36 plants
 
-
-Dihbyrid ratios with sex vs. autosomal loci (don't worry)
 
 
 ## Chi squared

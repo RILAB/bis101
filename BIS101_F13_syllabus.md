@@ -114,7 +114,7 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 * Reading: Griffiths Ch. 6
 * Reading: [Liu et al. 2012](http://schnablelab.plantgenomics.iastate.edu/publications/download.cgi?id=113)
 * Homework Questions: 
-	- Ch. 4: 25, 45, 63
+	- Ch. 4: 25, 45, 63	
 	- Ch. 6: 36, 62
 
 ### Tuesday Oct. 8
@@ -148,6 +148,7 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 
 ### Thursday Oct. 24
 * **Case Study: *tb1***
+* Exam \#1 assigned, due on Smartsite by 5pm on Oct. 31
 * Reading: [Ibarra-Laclette et al. 2013](http://www.nature.com/nature/journal/v498/n7452/full/nature12132.html)
 * Homework Questions: TBA
 
@@ -158,6 +159,7 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 
 ### Thursday Oct. 31
 * **Mutation and Recombination**
+* Exam \#1 due on Smartsite by 5pm
 * Reading: Griffiths Ch. 16
 * Homework Questions: TBA
 * Reading: [Baudat et al. 2009](http://www.sciencemag.org/content/327/5967/836.long)
@@ -211,5 +213,9 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 
 ### Thursday Dec. 5
 * **Case Study: *tb1***
+* Exam \#2 assigned, due on Smartsite by 10:30pm on Dec. 11
 * Reading: Griffiths Ch. 2
 * Reading: [Studer et al. 2011](http://www.panzea.org/pdf/Studer_etal_2011_Nat_Genet_43_1160.pdf)
+
+### Wednesday Dec. 11
+* Exam \#2 due on Smartsite by 10:30pm

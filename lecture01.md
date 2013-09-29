@@ -205,7 +205,7 @@ humans have two sex chromosomes X and Y. 1 from each parent, but XX is female, X
 Drosophila also have XY system
 
 * Draw Punnet square for w+/w+ Drosophila female (red WT) x w male
-* Compare to square for w+ male x w/w/ female
+* Compare to square for w+ male x w/w/ female (if time permits)
 * For both show color, sex of F1 and F2 products
 
 <img src="./griffiths/ch02/figure_02_19.jpg" style="width: 500px;"/>
