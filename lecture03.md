@@ -9,27 +9,31 @@ Skip 4.3,4.4
 
 ## Allele effects
 
-dominant
+dominant/recessive
+
 * bad mutations often but not always recessive — dominant negative
 
-recessive
-
 incomplete dominance (white/pink/red, draw genotypes) 
+
 * intermediate phenotype — mixing on a quantitative scale
 * remember this is from phenotype perspective -- here looks like mixing
 
 codominance  — both alleles are expressed
+
 * blood types (explain)
 * at phenotypic level looks different from incomplete dominance
 * at genetic level both are pretty much the same
-* reality we treat dominance as a variable, where 0 is recessive and 1 is dominant, and phenotype can be e.g. 0, a*d, a (don't need to know, and notation not really correct)
+* reality we treat dominance as a variable, where 0 is recessive and 1 is dominant
+* phenotype can be e.g. 0, a*d, a (don't need to know, and notation not really correct)
         
 lethal
-* can be dominant or recessive — ??? why is recessive more common?
+
+* can be dominant or recessive — <strong style="font-size: 150%; color: red;">?</strong> why is recessive more common?
 
 pleiotropy — has more than one effect
-* often used in a lame way: ??? what other effects might allele that makes longer beans have
-* "real" pleiotropy is traits that are less obviously correlated.  perhaps an enzyme is needed for pathway to flower and to make leaf hairs.  a mutant in the gene for that enzyme would have two phenotypes
+
+* can be silly <strong style="font-size: 150%; color: red;">?</strong> what other effects might an allele that increases height have?
+* "real" pleiotropy is traits that are less obviously correlated.  perhaps an enzyme is ne5eded for pathway to flower and to make leaf hairs.  a mutant in the gene for that enzyme would have two phenotypes
 
 Pathways
     genes not in vacuum and not just make one product that does it's thing
@@ -51,7 +55,7 @@ Pathways
         fig. 6-12 in the book rad
         DO NOT memorize ratios 9:3:4 or 9:7 etc.
             know 9:3:3:1 and 3:1
-Epistasis
+## Epistasis
     statistical epistasis is observation of an interaction, but unknown gene(s)
         effect depends on genotype or genetic background
             late flowering allele may make you flower 3 days later in one plant, but only 1 day later in another or 2 days earlier in a third

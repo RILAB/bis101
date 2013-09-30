@@ -49,8 +49,9 @@ Work through example.
 * Draw Punnett square. 
 * Get phenotypes. 
 * work out all 16 progeny, figure out phenotype based on dominant/recessive 
-* Show monohybrid 3:1, 
-* dihybrid 9:3:3:1
+* Show monohybrid 3:1 <strong style="font-size: 150%; color: red;">?</strong> is this phenotype? for dominance or codom too? 
+* dihybrid 9:3:3:1 for phenotype
+* for genotype more complex. how many diff genotypes? <strong style="font-size: 150%; color: red;">?</strong> (3^2), most common is RrYy at 4 ways to get it.
 
 Don't worry about Dihbyrid ratios with sex vs. autosomal loci
 
