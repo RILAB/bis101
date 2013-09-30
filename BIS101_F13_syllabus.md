@@ -102,7 +102,7 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 * Reading: Griffiths Ch. 2
 * Homework Questions: 
 	- Ch. 2: 23,38,48,49,54
-	- Ch. 3: 13,20,32,28,46
+	- Ch. 3: 13,20,28,32,46
 
 ### Tuesday Oct. 1
 * **Independent Assortment**

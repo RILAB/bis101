@@ -55,6 +55,31 @@ Work through example.
 
 Don't worry about Dihbyrid ratios with sex vs. autosomal loci
 
+## Chi squared
+
+Reality never perfect, e.g. we see 267 vs 93 which we interpret as 3:1 (though not perfect 270:90). But would we interpret 280:80 or 290:70? 
+
+So how to know if close enough? Chi-squared test 
+
+I expect 270:90; i observe 267:93
+
+Chi^2 = Sum((E-O)^2/E); compare to table with df (degrees freedom?)
+
+df = here is number of phenotypic classes -1 (here 2 classes so 1 df)
+don't worry about how to calculate df.
+
+sum = 0.13, 1 df, from table 3-1 in book, to be significant at p=0.05 (i.e. <5% chance of observing data) need 3.841.
+
+<strong style="font-size: 150%; color: red;">?</strong> so what do you conclude? (can't reject null hypothesis of expectation, != to saying it is right!), that is 3:1 is an OK way of describing this
+
+redo yourself with 244:104. <strong style="font-size: 150%; color: red;">?</strong> If 3:1 is correct, what is predicted numbers? 261:87 should show the predicted ratio for 3:1 is: 261:87 
+
+value is 4.43 -> reject 3:1 ratio!
+
+Can use for equal segregation (numbers of big A and a in offspring from one locus, association among loci, population genetics, etc.)
+
+will return to Chi-squared for other things in the future.
+￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼
 ## Predictions: probability
 
 Useful for studying pedigress, for knowing proportions of offspring, gamete production, etc.
@@ -125,21 +150,3 @@ How many progeny will i have to grow to get the tb1-ref/tb1-ref;wxy/wxy;adh1/ ad
 	- n=ln(0.1)/ln(0.9375)=35.7 == 36 plants
 
 
-
-## Chi squared
-
-Reality never perfect, e.g. we see 267 vs 93 which we interpret as 3:1 (though not perfect 270:90). But would we interpret 280:80 or 290:70? 
-
-So how to know if close enough? Chi-squared test 
-
-I expect 270:90; i observe 267:93
-
-Sum((E-O)^2/E); compare to table with df (degrees freedom?)
-number of phenotypic classes -1 (here 1)
-sum = 0.13, 1 df,
-from table, to be significant at p=0.05 (i.e. <5% chance of observing data) need 3.841.
-so what do you conclude? (can't reject null hypothesis of expectation), that is 3:1 is an OK way of describing this
-redo yourself with 244:104. should show the predicted ratio for 3:1 is: 261:87 (why not 270:90??)
-value is 4.43 -> reject 3:1 ratio!
-￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼
-value is 4.43 -> reject 3:1 ratio!
