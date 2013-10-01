@@ -110,3 +110,38 @@ Epistasis vocab (know definition, but not worry about crosses on test)
 * **expressivity** how much expressed (little effect on drought tolerance or lots) varies among individuals
 
 <img src="./griffiths/ch06/figure_06_22.jpg" style="width: 250px;"/>
+
+## Example # 37 Ch6
+
+Snapdragon breeds true for white petals. x snapdragon breeds true for purple.  All F1 were white.  F2 are 240 white, 61 solid purple, 19 spotted purple. for a total of 320.  
+
+If you're not supposed to memorize these ratios, how to solve these? 
+
+First, rarely do you have to do science fast. So take some time, relax, and think.
+
+It's really just hypothesis testing. 
+
+H1: It's one locus dominant. Prediction (after drawing punnet square): 3:1. Rejected!
+
+H2: Two loci, recessive epistasis. Save you the time and think wait then why do we see white and purple dominate? Leave this for now and test dominant epistasis.
+
+H3: Dominant epistasis, two loci. We'll invent some genotypes:
+
+AAbb white parent
+aaBB purple parent  <strong style="font-size: 150%; color: red;">?</strong> Why do parents have to be homozygous?  Because are true breeding.
+
+Because white is dominant, let's say white epistatic to purple, so then:
+
+1 AABB white
+2 AABb white
+1 AAbb white
+2 AaBB white
+4 AaBb white
+2 Aabb white
+1 aaBB purple
+2 aaBb purple
+1 aabb ??
+
+That gives us 12 white : 3 purple : 1 ??  Is this consistent with what we see <strong style="font-size: 150%; color: red;">?</strong>
+
+Could then do a chi-sq. to test goodness of fit.
