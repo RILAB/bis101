@@ -121,17 +121,13 @@ Prob. of not getting two heads = 3/4
 
 **Conditional probability**
 
-* Pr{A|B} read as A given B
+Pr(A|B) read as A given B = P(A ∩ B) / P(B)
 
-*Example:
+Example: 
 
-In a monohybrid cross with bob1 > bob2 (bob2 allele makes large thumbs) what's probability of genotype bob1/bob2 given WT thumbs?
+Prob. offspring of monohybrid cross with A>a is Aa given A- phenotype: P(Aa | A-) = P(Aa ∩ A- ) / P(A-) =  (1/2 are Aa and A-)/(3/4 are A-) = 2/3
 
-* Pr(bob1/bob2 | bob1/- ) = 2/3
-
-* So *given* that I have the dominant phenotype prob het = 2/3
-
-<strong style="font-size: 150%; color: red;">?</strong> What's prob of het w/o conditioning? (1/2)
+* So *given* that individual has the dominant phenotype prob it is het = 2/3
 
 **Hard problem**
 

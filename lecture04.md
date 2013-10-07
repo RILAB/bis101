@@ -6,6 +6,9 @@ Include Section 3.4 of ch. 3
 
 ## Notes/Questions?
 
+From lecture 2, on conditional probability:  P(A|B)=P(A ∩ B) / P(B)
+Example: prob. offspring of monohybrid cross with A>a is Aa given A- phenotype: P(Aa | A-) = P(Aa ∩ A- ) / P(A-) =  (1/2 are Aa and A-)/(3/4 are A-) = 2/3
+
 ## RecombinationWhat does independent assortment mean physically <strong style="font-size: 150%; color: red;">?</strong>
 
 Different chromosomes, or far enough apart that recombination breaks up any correlation. "independent" means no correlation.  
