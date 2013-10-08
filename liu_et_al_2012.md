@@ -26,6 +26,8 @@ They found lots of CNVs in our study, and show that these contribute to phenotyp
 
 (We'll come back to RILs and segregation of non-allelic homologs)
 
+Student Question: Why do we call them copies? Where's the original?
+
 ## Methods
 
 <strong style="font-size: 150%; color: red;">?</strong> **RILs** between B73 and  Mo17 (draw RILs w/ two colors, label parents)
