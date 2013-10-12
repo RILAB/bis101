@@ -1,5 +1,7 @@
 #BIS101 F2013 Lecture 5: Quantitative Traits
 
+<!--Notes: In future do this lecture AFTER popgen.-->
+
 ##qualitative traits
 
 - red or green, wrinkled vs. round, etc. 

@@ -123,6 +123,7 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 * Reading: [Schemske and Bradshaw 1999](http://www.pnas.org/content/96/21/11910.full.pdf)
 
 ### Thursday Oct. 10
+<!--Notes: In future do this lecture AFTER popgen.-->
 * **Quantitative Genetics**
 * Reading: Griffiths Ch. 19
 * Reading: [Schemske and Bradshaw 1999](http://www.pnas.org/content/96/21/11910.full.pdf)
@@ -136,10 +137,12 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 * Reading: [Johnston et al. 2013](http://www.nature.com/nature/journal/vaop/ncurrent/pdf/nature12489.pdf)
 
 ### Thursday Oct. 17
-* **Phylogenetics**
+* **Genomics and Phylogenetics**
 * Reading: Griffiths Ch. 14, 20
 * Reading: [Johnston et al. 2013](http://www.nature.com/nature/journal/vaop/ncurrent/pdf/nature12489.pdf)
-* Homework Questions: TBA
+* Homework Questions: 
+	- Ch. 14: 25, 26, 27
+	- Ch. 20: 21,22 
 
 ### Tuesday Oct. 22
 * **Chromosomal Evolution**
