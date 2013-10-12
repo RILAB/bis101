@@ -135,7 +135,7 @@ Can estimate heritability by covariance between parents and offspring
 ####Breeder's equation
 R=h^2*S
 
-![Alt text](/Users/jri/src/bis101/response_selection.jpg)
+![Alt text](./images/response_selection.jpg)
 
 If you know heritability (from some other estimate) you can predict response to selection on quant. trait
 
@@ -154,6 +154,21 @@ Draw cross between fluffy rabbit and hairless rabbit
 - draw 1 pair of chromosomes w/ markers
 - phenotype varying among offspring
 - statistical association that everytime you see marker X, ~10% fluffier
+
+M1 | M2 | M3 | M4 | Phenotype
+---|---|---|---|---
+MM | Mm | Mm | mm | 3.89
+Mm | Mm | mm | Mm | 1.29
+MM | mm | Mm | Mm | 3.63
+mm | MM | MM | Mm | 5.42
+MM | Mm | Mm | mm | 3.37
+Mm | MM | mm | MM | 1.99
+Mm | mm | Mm | mm | 3.05
+MM | mm | Mm | MM | 3.91
+mm | Mm | MM | Mm | 5.26
+mm | Mm | mm | mm | 1.04
+-0.02 | 0.01 | 0.97 | 0.1 |
+
 
 Can you cross 2 parents w/ same phenotype and get variation <strong style="font-size: 150%; color: red;">?</strong> 
 
