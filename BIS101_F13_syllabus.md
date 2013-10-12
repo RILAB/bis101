@@ -141,7 +141,7 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 * Reading: Griffiths Ch. 14, 20
 * Reading: [Johnston et al. 2013](http://www.nature.com/nature/journal/vaop/ncurrent/pdf/nature12489.pdf)
 * Homework Questions: 
-	- Ch. 14: 25, 26, 27
+	- Ch. 14: 25,26,27
 	- Ch. 20: 21,22 
 
 ### Tuesday Oct. 22
@@ -153,7 +153,9 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 * **Case Study: *tb1***
 * Exam \#1 assigned, due on Smartsite by 5pm on Oct. 31
 * Reading: [Ibarra-Laclette et al. 2013](http://www.nature.com/nature/journal/v498/n7452/full/nature12132.html)
-* Homework Questions: TBA
+* Homework Questions: 
+	- Ch. 17 39, 44
+	- Ch. 7 23, 27, 30
 
 ### Tuesday Oct. 29
 * **DNA**
