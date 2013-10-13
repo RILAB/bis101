@@ -166,8 +166,8 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 * **Mutation and Recombination**
 * Exam \#1 due on Smartsite by 5pm
 * Reading: Griffiths Ch. 16
-* Homework Questions: TBA
 * Reading: [Baudat et al. 2009](http://www.sciencemag.org/content/327/5967/836.long)
+* Homework Questions: TBA
 
 ### Tuesday Nov. 5
 * **RNA**
