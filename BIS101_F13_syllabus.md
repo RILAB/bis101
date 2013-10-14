@@ -39,7 +39,7 @@ Giedt 1001
 ####Paul Bilinski
 	262B Robbins Hall
 	Email: pbilinski@ucdavis.edu
-	Office hours: Tuesday 1-2pm and Wednesday 9-10am 
+	Office hours: Tuesday 1-2pm (Robbins 262A) and Wednesday 9-10am (Robbins 289)
 
 ####Laura Vann
 	262B Robbins Hall
