@@ -1,169 +1,121 @@
-#BIS101 F2013 Lecture 7: Genomics and Phylogenetics
+# BIS101 F2013 Lecture 7: Genomics and Phylogenetics
 
-##Reading
+## Reading
 
 ## Genomics
 what is "the genome"?
 
 what's it good for:
 
-- understand evolution 
-	- clues to function (same gene in diff. organisms likely similar function)
-- identify functional variants (mapping)
-	- it's nice to show segregation w/ markers, but genome -> variant!
-    - much of reverse and forward genetics not possible w/o!
-- understanding mechanism (methylation, TEs, transcription, etc.)
-- speed up all of genetic analyses
-	- rather than ask if gene X is upregulated, can look at all genes
+* reference for understanding function, mechanism, evolution
+* a "map" on which you place other information
+* show browswer
 
-example of sexy dates:
+sequencing costs. human genome cost $3 billion dollars
 
-- sequenced genome
-- like some plants, has male and female individuals
-- screen markers across known genome sequence
+* now to **resequence** genome only $4K.
+* by time any of you is a Dr. human genom seq. < $1K (cheaper than any genetic test)
 
-		what does the pedigree tell you about phenotype/genotype?
-    
-- looked for markers who tracked sex along pedigree
-- identified sex loci -- not yet sex chromosomes but nascent
+What can you do w/ sequencing <strong style="font-size: 150%; color: red;">?</strong>
 
-STDS in Silene
+* learn the sequence: detect **SNPs** and other variants
+* bisulfite seq. - methylated C's -> T seq. compare to normal
+* transcriptome
+* proteome
+* nuclease digestion
+* CHip-seq seq. all DNA bound by protein
 
+I can sequence your entire genome in 27 hours. In very near future, you will go to Dr. and to diagnose they may:
 
-##Genetic vs. Physical Maps
-
-	what's a marker?
-
-explain each kind of map
-
-	how to connect (restriction enzymes, DNA seq. markers)
-
-explain markers on physical vs. genetic map, some on both
-
-explain big physical, small genetics -> low recombination
-
-show Gerke plot of diversity
-
-##How to sequence a genome
-	why can't you sequence end to end?
-
-shotgun
-
-	why difficult to assemble repeats?
-	
-different seq. technologies
--Sanger
--Illumina
--Iontorrent
--Pacbio
--Minion
-**show fastq**
-
-jump 100K then 1M reads
-
-##Sequencing costs 
-I can do a lot of sequencing now and learn genetics on genome scale
-
-these can be used to study lots of kinds of genetics. e.g.
-
-- bisulfite seq. - methylated C's -> T seq. compare to normal
-- transcriptome
-- nuclease digestion
-- CHip-seq seq. all DNA bound by protein
-- detect **SNPs** and other variants
-
-good example of why programming important for biology
-biology -- especially genetics becoming a computational discipline
-
-to get your variants, need high coverage b/c sequence errors.
-so sequence to 30X -> 90 gigabases, takes up 200Gb hard disk
-
-if I can sequence your entire genome in 27 hours. 
-by time any of you is a Dr. human genom seq. < $1K (cheaper than any genetic test)
-
-now say i want to understand your condition:
-
-- sequence your transcriptome (what is?) at time series along the day
-- multiple tissues
-- cancer genome to find mutations 
+- sequence your transcriptome (what is?) at time series along the day to identify genes regulated oddly or responding to infection etc.
+- multiple tissues: sequencing tumors to figure out what is wrong or find mutation
 - methylome, etc. etc.
+- proteome to see if some protein level is off.
 
-## Genomes as refs. genomic annotation
+good example of why programming important for biology -- genetic analysis is a computational discipline
 
-	so how do i know where the genes are? how to annotate?
+* i sequence your genome, I get 90Gb of A,C,T,G plus related information -- 200Gb of data to analyze. can't do that in excel.
+* show fastq file.
 
-explain browser, RNA sequence, etc.
+## How to sequence a genome
 
-	why not all RNA line up with gene? splice site variation
+You can't just sequence end to end each chromosome.
 
-show added features
-- methyltaion status
-- TE density
-- nucleosome occupancy
-- leaf transcriptome from RNAseq across parts of leaf
-- some may vary among tissues, development, etc.
+Whole-genome shotgun -- draw chromosome, sequences, assembly.
 
-show GenomeWowser
+Resequencing is easier (but still tricky) as you are mapping to "known" reference.
 
-##Variation
-	what's missing from reference genomes?
+* as we saw w/ Liu et al. paper, ref. is not static!	
+## Annotation
 
-- centromeres
-- heterochromatin
-- telomeres
-- duplicate genes/paralogs
-there's a reference, but lots of variation
+so how do i know where the genes are? how to annotate <strong style="font-size: 150%; color: red;">?</strong> 
 
-kinds of variants:
+- RNA sequence, etc.
 
-- SNPs
-- indels (explain ancestral/derived unknown)
-- CNVs / PAVs
-- splice site variants, etc.
+## Phylogenetics
 
-human example w/ **SNPs**
+Study of evolutionary relationships among species. Will not get into much detail here.
 
-maize example w/ missing sequence **CNV PAV indel TE**
+Usually use gene sequences to determine relatedness.  For example:
 
-##Functional Variation
+Raccoon      
 
-amylase copy number in saliva correlates with starch in human diet. why?
+    ATGGGA
 
-- more copies of gene == more expression, better digestions
+Bear        
 
-- SNP explains whether you like the taste of cilantro
+    ATGGGA
 
-but not all functional, most of the >3M SNPs in humans have no functional consequence.
+Cat         
 
-in maize we've identified >55M SNPs!
+    AACGGT
+
+Mongoose    
+
+    AACGGA
+
+Platypus    
+
+    GTCTTA
+
+Parsimony method, but really people use whole genomes and very complex statistical methods.  
+
+Draw tree, label nukes. Define **outgroup** allowing you to put an ancestral root on the tree.
+
+Does this mean platypus is "basal" or "ancestral" to all mammals <strong style="font-size: 150%; color: red;">?</strong> No.
+
+Useful for understanding when things evolved, for identifying conservation, for studying gene origin and evolution.
 
 ## Gene duplication
 
-important form of genomic change
+**Homolog** closely related gene.
 
-separated by speciation vs. separated by duplication
+Two kinds.
 
 **ortholog paralog**
 
-## Sub vs. neo vs. pseudo
+separated by speciation vs. separated by duplication
 
-	what would happend to a pseudogene over time?    
-	
-##CENPC example
+draw examples.ß
 
-explain tandem vs. dispersed duplication
-
-	how one happened vs. other?	
-
-## Genomic Rearrangement -- large scale changes
-
-talked about inversions, duplications, polyploidy, translocations
+duplication important form of change.
 
 define **synteny**
 
-- physical co-localization of genetic loci on the same chromosome
+draw how synteny can inform which gene is ortholog.
 
-explain graph
+fates of a new gene duplicate: Sub vs. neo vs. pseudo
 
-shows SH1 and how synteny identifies functional locus
+what would happend to a pseudogene over time?   
+
+## Gene evolution
+
+Purifying selection removes new deleterious mutations. Important genes with functions will be under stronger <strong style="font-size: 150%; color: red;">?</strong> or weaker purifying selection?
+
+How to identify.
+
+Define **nonsynonymous** and **synonymous** changes.
+
+If both have no effect on function, expect equal proportions.  Can compare gene sequences along a phylogeny and count nonsyn and syn changes.  if dN/dS << 1, constraint!  if dN/dS >> 1, rapid adaptation!
+
 

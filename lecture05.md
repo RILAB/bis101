@@ -2,6 +2,14 @@
 
 <!--Notes: In future do this lecture AFTER popgen.-->
 
+## Reading
+
+Skip 18.1 (but read def. of haplotype)
+
+Skip inbreeding
+
+Skip box 18.5, 18.6
+
 ##qualitative traits
 
 - red or green, wrinkled vs. round, etc. 
@@ -29,17 +37,12 @@ A locus | B locus | Phenotype
  
 but there will be 2 of each het (1:2:1 Mendel), so distribution of phenos will be:
 
-and it looks like (draw): ![Alt text](./temp/phenos1.pdf)
+and it looks like (draw): 
+
+<img src="/Users/jri/src/bis101/temp/phenos1.jpg
+" style="width: 350px;"/>
 
 As you get more and more loci, becomes normal. 
-
-This is for a cross where at each het we have 1:2:1 segregation in F2, but in a population what determines the distribution ??? (allele freqs, which we talk about next time)
-
-Popgen!  So distribution would be freq. of genotype * value, e.g.
-
-@ locus A p_A=0.2 and at locus B p_B 0.3
-
-![Alt text](./temp/phenos2.pdf)
 
 Most phenotypes of interest are quantitative.
 
@@ -87,6 +90,21 @@ heritability is the % of phenotypic variation due to variation in genes
 	- probably mostly due to improved health care, food, etc.
 - V_G may change as allele frequencies change (popgen)
 
+A locus | B locus | Phenotype
+---|---|---
+1	1	|1	0|	3 (3.2)1	1	|0	0|	2 (2.2)1	0	|1	1|	3 (2.7)
+0	1	|0	1|	2 (1.5)0	0	|1	0|	1 (0.8)1	0	|0	0|	1 (1.2)
+
+V_P=0.6777 (or 0.8)
+V_G=0.677 (or 0.8) no V_E
+
+Redo with parenethetical numbers
+
+Now V_P = 0.71 (or 0.85)
+and V_G same at 0.677, remainder is V_E
+
+We usually don't know genes, so can't directly calculate V_G.
+
 ####How to estimate
 
 One way to estimate broad sense, in humans, is looking at twins separated. 
@@ -94,6 +112,8 @@ One way to estimate broad sense, in humans, is looking at twins separated.
 Genes identical, environment diff. Similarity must be due to genes.
 
 Covariance in phenotype: (Sum(X-Xbar)(Y-Ybar))/n  <- first and second twin
+
+V_E falls out if we assume no correlation, thus Covariance between twin 1 and twin 2 is all genetic -> V_G
 
 From twin studies:
 
@@ -175,7 +195,7 @@ mm | Mm | mm | mm | 1.04
 Can you cross 2 parents w/ same phenotype and get variation <strong style="font-size: 150%; color: red;">?</strong> 
 
 - yes, think two people exactly 5'7"
-- Example w/ our two locus system: AAbb = 10 and aaBB = 10 and AABB = 20 and aabb = 0.
+- Example w/ our two locus system: AAbb = 2 and aaBB = 2 and AABB = 4 and aabb = 0.
 
 Parents can harbor alleles that don't make initial sense
 
@@ -184,5 +204,9 @@ Parents can harbor alleles that don't make initial sense
 
 Since crosses and linkage mapping are hard in some organisms (humans), we do association mapping. Also seen as GWAS -- genome wide association study.
 
-Genotype a large number of unrelated individuals and look for the correlation there 
+Genotype a large number of unrelated individuals and look for the correlation there.
+
+Nice example in humans: cilantro taste - SNP explains whether you like the taste of cilantro
+
+Lots of statistical issues. E.g. twitter example claiming left-handedness is not genetics. Lots of genes of small effect ≠ nongenetic. 
     

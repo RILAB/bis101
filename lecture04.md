@@ -96,7 +96,7 @@ What about if I take a different F1 test cross:
 
 Genotype of F1 <strong style="font-size: 150%; color: red;">?</strong> A1_B2/A2_B1 
 
-* explain notation w/ lines; explain **phase**. phenotype and genotype same, but phase differes.
+* explain notation w/ lines; explain **phase**. phenotype and genotype same, but phase differs.
 * because we can identify parental types
 * What was the genotype of previous F1? A1_B1/A2_B2
 
@@ -143,7 +143,9 @@ Now distances:
 
 First let's ignore B.  We can then treat C2 and A1 as a two-point cross (annotate rec. and parental). 13.2%
 
-Now ignore A and do C and B -> 6.4 % 
+Now ignore C and do A and B -> 6.4 % 
+
+The other way to find order is to do all 3 pairwise distances: the biggest distance are the outside two!
 
 In a simple world, we'd be done & freq. of double crossovers would be <strong style="font-size: 150%; color: red;">?</strong> 
 
@@ -171,12 +173,12 @@ Note maximum RF% is always 50%! Why can never get 100% <strong style="font-size:
 * Think about separate chromosomes
 * Check out fig. 4-19 in book showing how even for DCO on avg. get 50%
 
-Haldane's mapping fxn:
+Haldane's mapping fxn. Relates ovsered RF with expected # of CO and then to what RF *should* be given that # of CO.
 
 * RF=0.5*(1-e^-m) 
 * where m is mean number crossovers in interval. 
 * So for RF of 27.5% we get m=0.8
-* Since 1 CO = 50% RF = 50cM, to turn this into cM we multiply by 50 = 50 cM (note bigger tahn 27.5!!)
+* Since 1 CO = 50% RF = 50cM, to turn this into cM we multiply by 50 = 40 cM (note bigger than 27.5!!)
 
 
 ## Mechanism of crossing over
@@ -185,13 +187,11 @@ Come back to hopefully.  Don't memorize. Draw with color.
 
 Happens in chromatids. in tetrad of sister chromatids.  So when<strong style="font-size: 150%; color: red;">?</strong> Meiosis!
 
-Involves double-strand breaks in DNA. 
+Involves double-strand breaks in DNA. Fig. 4-21 in book.
 
-![DSB](images/rec1.png)
+<img src="/Users/jri/src/bis101/griffiths/ch04/figure_04_21.jpg" style="width: 500px;"/>
 
 Strand invasion, extension, formation of Holliday junction
-
-![DSB](images/rec2.png)
 
 Whole shebang can be resolved to form: no crossover, crossover
 
@@ -212,3 +212,4 @@ into
 * aBc
 
 Different from DCO because now ALL gametes are B!
+
