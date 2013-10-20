@@ -1,11 +1,28 @@
 \documentclass[]{article}
 \usepackage[pdftex]{graphicx}  
 \usepackage{color}
+\usepackage{hyperref}
 
 \begin{document}
 
+%---------------------------------------------------------%
+%FRONT PAGE
+%---------------------------------------------------------%
+\section*{BIS101 Fall 2013. Exam \#1}You are welcome to use standard academic resources available to you (books, articles, the internet), but do not consult with other students.  Please keep your answers brief.  The test is 100 points. The exam is due Thursday Oct 31 at 5pm.  It can only be turned in electronically via SmartSite.  SmartSite will not accept exams after 5pm, and late exams cannot be turned in by other means. {\bf Do not wait until the last minute to turn your exam in; problems with SmartSite, internet connections, or your computer are not acceptable reasons for missing the deadline.}  Your exam will not be graded unless this front page is turned in with your name, student ID, and your signature below.  This page may be turned in in person or along with your exam. By signing, you are verifying that you understand the exam deadline and agree to abide by the UCD Code of Academic Conduct \url{http://sja.ucdavis.edu/cac.html}.  \\\vspace{2cm} \\
+
+\begin{tabular}{lll}& Name & \underline{\hspace{5cm}} \\\vspace{2cm} \\& Student ID & \underline{\hspace{5cm}} \\\vspace{2cm} \\
+& Signature & \underline{\hspace{5cm}} \\\vspace{2cm} \\
+\end{tabular}
+
+%---------------------------------------------------------%
+%BEGIN PROBLEMS
+%---------------------------------------------------------%
 \begin{enumerate}
 
+%---------------------------------------------------------%
+%PEDIGREE/MENDEL
+%---------------------------------------------------------%
+\newpage
 \item Figure \ref{dogigree} is a pedigree of miniature schnauzers (a dog breed). Female \#2 has already had one litter, and male \#3 has already sired two offspring with female \#4. A breeder is interested in mating female \#2 and male \#3, but is worried about a recessive X-linked disorder called Von-Willibrands disease in their offspring. Answer the following:
 
 \begin{enumerate}
@@ -20,7 +37,6 @@
 \end{enumerate}
 \end{enumerate}
 
-%-------------------------------------------------------------------
 \begin{figure*}[h]
   \begin{center}
    \includegraphics[width=130mm]{images/pedigree_test.pdf}
@@ -28,11 +44,12 @@
 \label{dogigree}
   \end{center}
 \end{figure*}
-%-------------------------------------------------------------------
 
+%---------------------------------------------------------%
+%QUANTITATIVE GENETICS
+%---------------------------------------------------------%
 \newpage
-
-\item You are interested in understanding the genetics of furriness in rabbits. You recruit 18 rabbit owners to bring in their bunnies for measurement.  Each bunny's fluffiness is measured on a scale of 1 (no hair) to 10 (maximum fluffy). Phenotypes for all 18 bunnies are shown in Table \ref{fluffy}. 
+\item You are interested in understanding the genetics of furriness in rabbits. You recruit 18 rabbit owners to bring in their bunnies for measurement.  Each bunny's fluffiness is measured on a scale of 1 (no hair) to 10 (see \url{http://goo.gl/5fssLD} for an example of 10). Phenotypes for all 18 bunnies are shown in Table \ref{fluffy}. 
 
 \begin{enumerate}
 \item Calculate the phenotypic variance for fluffiness (5 pts).
@@ -41,7 +58,7 @@
 %Their phenotypes are shown in Table \ref{clones}. Using these data, calculate the broad sense heritability of fluffiness in rabbits (6 pts).
 \end{enumerate}
 
-\begin{table}[h!]
+\begin{table}[h]
 \caption[]{Rabbit phenotypes.}
 \begin{center}
 \begin{tabular}{ll}
@@ -83,31 +100,37 @@ Buttercup & 4\\
 %\label{clones}
 %\end{table}
 
+%---------------------------------------------------------%
+%INTERACTION/EPISTASIS
+%---------------------------------------------------------%
 \newpage
+\item Abscisic acid is an important regulator of seed maturation and germination in plants. You have two mutant maize plants that make insufficient levels of abscisic acid and thus their kernels germinate prematurely on the cob. When you self the first mutant it produces 345 mutant offspring. When you cross the second mutant to a wild-type plant all of the F1 are wild-type, and selfing the F1 results in 265 wild-type and 89 mutant offspring.  When you cross both original mutants together they produce 563 wild-type offspring.  Draw the genotypes of both mutant lines and the dominance of the alleles involved (8 pts).
 
-\item Abscisic acid is an important regulator of seed maturation and germination in plants. You have two mutant maize plants that make insufficient levels of abscisic acid and thus their kernels germinate prematurely on the cob. When you self the first mutant it produces 345 mutant offspring. When you cross the second mutant to a wild-type plant all of the F1 are wild-type, and selfing the F1 results in 265 wild-type and 89 mutant offspring.  When you cross both original mutants together they produce 563 wild-type offspring.  Draw the genotypes of both mutant lines and the dominance of the alleles involved (10 pts).
-
-
-%$A_1/A_2$ and $A_3/A_3$.  Two or three alleles at one locus ($A_2$ and $A_3$ could be same allele). $A_3$ is recessive. $A_1$ is dominant to $A_2$ and $A_3$
+%---------------------------------------------------------%
+% SCHEMPSKE \& BRADSHAW (1999)
+%---------------------------------------------------------%
 \newpage
 \item The following two questions refer to the paper by Schempske and Bradshaw (1999). 
-\begin{enumerate}
-\item Briefly describe Schempske and Bradshaw's conclusions regarding the effect size of alleles important for speciation in \emph{Mimulus} (5pts).
+%\begin{enumerate}
+%\item Briefly describe Schempske and Bradshaw's conclusions regarding the effect size of alleles important for speciation in \emph{Mimulus} (5pts).
 %\item Provide an explanation for the different effects of the nectar QTL shown in Figure. 4A an 4B.
-\item Carotenoid content in \emph{Mimulus} flowers is controlled by a single Mendelian locus called \emph{yup}. At this locus the \emph{M. cardinalis} allele is recessive to the \emph{M. lewissii} allele. In a population of F2 plants generated from a cross between \emph{M. lewissii}  and \emph{M. cardinalis}, provide an estimate and an explanation as to what you think the broad sense heritability for the orange/red color would be (\emph{hint: no calculations are needed to answer this question})(5 pts).
-\end{enumerate}
+Carotenoid content in \emph{Mimulus} flowers is controlled by a single Mendelian locus called \emph{yup}. At this locus the \emph{M. cardinalis} allele is recessive to the \emph{M. lewissii} allele. In a population of F2 plants generated from a cross between \emph{M. lewissii}  and \emph{M. cardinalis}, provide an estimate and an explanation as to what you think the broad sense heritability for the orange/red color would be (\emph{hint: no calculations are needed to answer this question})(6 pts).
+%\end{enumerate}
 
 %High (say above 60%) because single gene of large effect. Should be <100% because there will be environmental variation.
+
+%---------------------------------------------------------%
+% LIU ET AL (2012)
+%---------------------------------------------------------%
 \newpage
 \item Figure \ref{homologs} shows the karyotype of two individual plants of the genus\emph{Silene}.  The duplicated gene shown codes for an inorganic compound which causes plant tissue to appear significantly darker. The copy on chromosome 1 is expressed only in leaves, and the copy on chromosome 2 is expressed only in flower petals. Both loci are haplosufficient. (\emph{hint: reading Liu et al. 2012 may be helpful for figuring out this problem}).
 
 \begin{enumerate}
 \item Draw the karyotype and phenotype of the F1 and all possible F2 (6 pts).
 \item I make a mutant version of I207 in the lab which has pale flowers and breeds true. Sequencing shows this mutant is homozygous for a mutation in the gene on chromosome 2 shown in figure \ref{homologs}. If I cross this mutant line with the F1 between wild-type I207 and B97, what proportion of the offspring will have pale flowers (4 pts)?
-
 \end{enumerate}
 
-\begin{figure*}[h!]
+\begin{figure*}[h]
   \begin{center}
    \includegraphics[width=80mm]{images/homologs.png}
     \caption{Karyotype for chromosomes 1 and 2 of \emph{Silene} lines B97 and I207. Boxes on each chromosome represent the presence of a gene of interest (the absence of a box signifies that the gene is not present on that chromosome). The flower and leaf phenotype of each line is shown below the karyotype: B97 has dark leaves and pale flowers and I207 has pale leaves and dark flowers.} 
@@ -115,6 +138,9 @@ Buttercup & 4\\
   \end{center}
 \end{figure*}
 
+%---------------------------------------------------------%
+% GENOMICS/PHYLOGENETICS
+%---------------------------------------------------------%
 \newpage
 \item Use the phylogeny of the gene \emph{ahbp3} shown in figure \ref{duplicates} to answer the following questions.
 
@@ -127,14 +153,11 @@ Buttercup & 4\\
 %neofunctionalization
 \item In what tissues do you think the gene copy ancestral to all the plants shown was expressed (2 pts)?
 %roots and leaves
-\item If you compare the sequence of the \emph{Zea }copy of \emph{ahbp3} expressed only in flowers to the \emph{ahbp3} locus in \emph{Agave}, what do you predict would be the relationship between nonsynonymous substitutions and synonymous substitutions, and why (2pts)?
-%dn/ds >1 neofunctionalization
-
-
+\item If you compare the sequence of the \emph{Zea }copy of \emph{ahbp3} expressed only in flowers to the \emph{ahbp3} locus in \emph{Agave}, what do you predict would be the relationship between nonsynonymous substitutions and synonymous substitutions (2 pts)?
+%dn/ds >1
 \end{enumerate}
 
-
-\begin{figure*}[h!]
+\begin{figure*}[h]
   \begin{center}
    \includegraphics[width=110mm]{images/examfig2.png}
     \caption{Shown is a phylogenetic tree of the sequences of the \emph{ahbp3} locus in a groups of plants. The genus \emph{Zea} has 3 copies of this gene, while\emph{Sorghum} and rice each have two. Above the phylogeny is shown the tissues in which each copy is expressed. } 
@@ -142,54 +165,99 @@ Buttercup & 4\\
   \end{center}
 \end{figure*}
 
+%---------------------------------------------------------%
+% JOHNSTON ET AL (2013)
+%---------------------------------------------------------%
 \newpage
+\item Johnston et al. (2013) investigate the genetic variation of horn size in Soay sheep. Explain how they were able to rule out genetic drift as an explanation for the observed variation at the Ho locus (6 pts).
 
-\item Johnston
+%---------------------------------------------------------%
+% LINKAGE MAPPING
+%---------------------------------------------------------%
 \newpage
-\item Use Figure \ref{map} (also Figure 4-13c in your book) to answer the following questions.
+\item You cross two inbred lines of tomato: a hairy, jointed, tall plant with a hairless, dwarf, and jointless plant.  The F1 are all hairy, jointed, and tall.  Write out the genotypic and phenotypic ratios in the F2. Use Figure \ref{map} (also Figure 4-13c in your book) to help answer the question (10 pts).
 
-\begin{figure*}[h!]
+\begin{figure*}[h]
   \begin{center}
    \includegraphics[width=110mm]{griffiths/ch04/figure_04_13c.jpg}
-    \caption{Shown is a phylogenetic tree of the sequences of the \emph{ahbp3} locus in a groups of plants. The genus \emph{Zea} has 3 copies of this gene, while\emph{Sorghum} and rice each have two. Above the phylogeny is shown the tissues in which each copy is expressed. } 
+    \caption{A genetic map of tomato. } 
 \label{map}
   \end{center}
 \end{figure*}
 
 
-
-
+%---------------------------------------------------------%
+% CHROMOSOMAL EVOLUTION
+%---------------------------------------------------------%
 \newpage
-\item Ibarra-Laclette studied the genome of a carnivorous plant, \emph{Utricularia gibba}.  They found a small genome, with an average total number of genes.  They use comparative genomics to answer questions about the genomic history of \emph{U. gibba}.  Using the following ancestral block of genes in Figure \ref{minute}, answer these questions.
-%-------------------------------------------------------------------
+\item Use Figure \ref{map} (also Figure 4-13c in your book) to answer the following question.  By performing a series of crosses, you map the loci for certain phenotype in two lines of tomato.  In the first line, you find that the locus for the peach phenotype (alleles P and p) is 17cM from the locus for the oblate phenotype (alleles O and o) and 4cM from the locus for the dwarf phenotype (alleles D and d). In the second line, peach is 10cM from the locus for the mottled phenotype (alleles M and m) and 4cM from the dwarf locus, and the dwarf locus is 19cM from the oblate locus. 
+\begin{enumerate}
+\item Provide a reasonable hypothesis to explain this result (5 pts).
+\item Suggest an experiment to test this hypothesis (5 pts).
+\end{enumerate}
+
+%---------------------------------------------------------%
+% POPULATION GENETICS
+%---------------------------------------------------------%
+\newpage
+\item You genotype a sample of pollen grains from a population of wild tomatoes at the \emph{jointless} and the \emph{leafy} loci. The observed haploid genotypes are shown in Table \ref{tomaters}. 
+
+\begin{enumerate}
+\item What are the allele frequencies of the j and lf aleles? (2 pts) 
+\item Are these loci in linkage disequilibrium? (2 pts)
+\item Predict the genotype frequencies of diploid tomato plants in the next generation at each locus (2 pts).
+\item If \emph{j lf} gametes begin to have low fertilization success
+\begin{enumerate}
+\item What will happen to the frequency of each allele over many generations (2 pts)?
+\item What will happen to linkage disequilibrium between the loci (2 pts)?
+\end{enumerate} 
+\end{enumerate}
+
+\begin{table}[h]
+\caption[]{Tomato haploid genotypes.}
+\begin{center}
+\begin{tabular}{ll}
+Genotype & Number \\  \hline
+J Lf & 63\\  
+J lf & 7\\
+j Lf & 27\\
+j lf & 3\\
+
+\end{tabular}
+\end{center}
+\label{tomaters}
+\end{table}
+
+%---------------------------------------------------------%
+% IBARRA-LACLETTE ET AL (2013)
+%---------------------------------------------------------%
+\newpage
+\item Ibarra-Laclette studied the genome of a carnivorous plant, \emph{Utricularia gibba}.  They found a small genome, with an average total number of genes.  They use comparative genomics to answer questions about the genomic history of \emph{U. gibba}.  Use the ancestral block of genes in shown in Figure \ref{minute} to answer these questions.
+
+\begin{enumerate}
+\item If the ancestral gene block udnergoes 2 whole genome duplications, circle the correct response for each (4 pts):\\
+
+Total copy number of gene A:\hspace{5mm}1\hspace{5mm}2\hspace{5mm}3\hspace{5mm}4\\
+Total copy number of gene B:\hspace{5mm}1\hspace{5mm}2\hspace{5mm}3\hspace{5mm}4\\
+Is synteny retained?\hspace{5mm}yes\hspace{5mm}no\\
+Total amount of DNA:\hspace{5mm}up\hspace{5mm}down\hspace{5mm}same\\
+
+\item If gene B is cut out and moved to a new chromosome via the action of transposable elements, circle the correct response for each (4 pts):\\
+
+Total copy number of gene A:\hspace{5mm}1\hspace{5mm}2\hspace{5mm}3\hspace{5mm}4\\
+Total copy number of gene B:\hspace{5mm}1\hspace{5mm}2\hspace{5mm}3\hspace{5mm}4\\
+Is synteny retained?\hspace{5mm}yes\hspace{5mm}no\\
+Total amount of DNA:\hspace{5mm}up\hspace{5mm}down\hspace{5mm}same\\
+\item Draw the resulting gene block after the ancestral gene block experiences fractionation without impacting genes (2 pts).
+\end{enumerate}
+
 \begin{figure*}[h]
   \begin{center}
    \includegraphics[width=100mm]{images/minute_gene_block.png}
-\caption{Small block of DNA from the ancestral chromosome of \emph{U. gibba}, showing features according to the legend.  Segment contains 3 genes, named A, B, and C.}
+\caption{A small block of DNA from the ancestral chromosome of \emph{U. gibba}, showing features according to the legend.  The segment contains 3 genes named A, B, and C.}
 \label{minute}
   \end{center}
 \end{figure*}
-%-------------------------------------------------------------------
-\begin{enumerate}
-\item After the ancestral gene block undergoes 2 whole genome duplications, circle the correct response for each:
 
-Total copy number of gene A:\hspace{5mm}1\hspace{5mm}2\hspace{5mm}3\hspace{5mm}4\\
-Total copy number of gene B:\hspace{5mm}1\hspace{5mm}2\hspace{5mm}3\hspace{5mm}4\\
-Is synteny retained?\hspace{5mm}yes\hspace{5mm}no\\
-Total amount of DNA:\hspace{5mm}up\hspace{5mm}down\hspace{5mm}same\\
-
-\item The ancestral gene block experiences transposable element mediated movement of gene B to a new chromosome.
-
-Total copy number of gene A:\hspace{5mm}1\hspace{5mm}2\hspace{5mm}3\hspace{5mm}4\\
-Total copy number of gene B:\hspace{5mm}1\hspace{5mm}2\hspace{5mm}3\hspace{5mm}4\\
-Is synteny retained?\hspace{5mm}yes\hspace{5mm}no\\
-Total amount of DNA:\hspace{5mm}up\hspace{5mm}down\hspace{5mm}same\\
-\item Draw the resulting gene block after the ancestral gene block experiences fractionation without impacting genes
-\\
 \end{enumerate}
-
-\newpage
-\item Chromosomal evolution
-\end{enumerate}
-
 \end{document}
