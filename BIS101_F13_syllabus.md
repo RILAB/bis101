@@ -57,6 +57,8 @@ Lectures will predominantly be on the chalkboard. Text copies of Dr. Ross-Ibarra
 
 Lectures will consist of ~70 minutes of lecture, followed by a 5 minute break. Each class, after the break, we will discuss part of a paper on genetics from the primary scientific literature.
 
+You are welcome to make recordings of the lecture if that is useful for your studies.
+
 ## Grading
 
 Grading in the course will consist of two exams, homework, and class participation as follows:
