@@ -402,7 +402,7 @@ genotype freq. change depends on rel. fitness, so
 
 can do some math and show allele freq:
 
-- p'= p^2 w11+p(1-p)w12)/wbar
+- p'= p*(p^2 w11+p(1-p)w12))/wbar
        
 ### results: 
 
