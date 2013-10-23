@@ -9,7 +9,7 @@ what's it good for:
 
 * reference for understanding function, mechanism, evolution
 * a "map" on which you place other information
-* show browswer
+* show browser
 
 sequencing costs. human genome cost $3 billion dollars
 
@@ -19,7 +19,7 @@ sequencing costs. human genome cost $3 billion dollars
 What can you do w/ sequencing <strong style="font-size: 150%; color: red;">?</strong>
 
 * learn the sequence: detect **SNPs** and other variants
-* bisulfite seq. - methylated C's -> T seq. compare to normal
+* bisulfite seq. - methylated C's -> T seq. compare to normal for epigenetic change. (can tell how old someone is by their methylation changes!)
 * transcriptome
 * proteome
 * nuclease digestion
@@ -50,7 +50,7 @@ Resequencing is easier (but still tricky) as you are mapping to "known" referenc
 
 so how do i know where the genes are? how to annotate <strong style="font-size: 150%; color: red;">?</strong> 
 
-- RNA sequence, etc.
+- RNA sequence, protein sequence, computational translation and comparison to known databases
 
 ## Phylogenetics
 
@@ -78,7 +78,7 @@ Platypus
 
     GTCTTA
 
-Parsimony method, but really people use whole genomes and very complex statistical methods.  
+**Parsimony** (<strong style="font-size: 150%; color: red;">?</strong>) method, but really people use whole genomes and very complex statistical methods. We will not go into these details. 
 
 Draw tree, label nukes. Define **outgroup** allowing you to put an ancestral root on the tree.
 
@@ -110,12 +110,20 @@ what would happend to a pseudogene over time?
 
 ## Gene evolution
 
-Purifying selection removes new deleterious mutations. Important genes with functions will be under stronger <strong style="font-size: 150%; color: red;">?</strong> or weaker purifying selection?
+What will happen to new deleterious mutations <strong style="font-size: 150%; color: red;">?</strong> 
+
+**Purifying selection** removes new deleterious mutations. Important genes with functions will be under stronger <strong style="font-size: 150%; color: red;">?</strong> or weaker purifying selection?
 
 How to identify.
 
-Define **nonsynonymous** and **synonymous** changes.
+Define **nonsynonymous** and **synonymous** changes<strong style="font-size: 150%; color: red;">?</strong>
 
-If both have no effect on function, expect equal proportions.  Can compare gene sequences along a phylogeny and count nonsyn and syn changes.  if dN/dS << 1, constraint!  if dN/dS >> 1, rapid adaptation!
+Which is more likely to be functional <strong style="font-size: 150%; color: red;">?</strong>
+
+Which is more likely to be deleterious <strong style="font-size: 150%; color: red;">?</strong>
+
+If both have no effect on function, expect equal proportions of such changes.  
+
+Can compare gene sequences along a phylogeny and count nonsyn and syn changes per bp.  if dN/dS << 1, constraint!  if dN/dS >> 1, rapid adaptation!
 
 
