@@ -1,6 +1,15 @@
 # BIS101 F2013 Lecture 7: Genomics and Phylogenetics
 
+## Notes
+
+TEST!!
+
+Halloween!
+
 ## Reading
+
+All of Ch. 17. Check syllabus for updates. HW and reading updates as we go along
+ 
 
 ## Genomics
 what is "the genome"?
