@@ -1,10 +1,10 @@
+images/
+temp/
+bilinski_notes/
 *.aux
 *.log
 *.synctex.gz
-*.pdf
 Genetics_2200_booklet12.doc
-temp/*
-images/*
 griffiths/*
 *.key
 Liu_etal_SI/*
