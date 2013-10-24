@@ -8,9 +8,7 @@ Ch. 7 skip 7.1 (Fig. 7.1 ranks as perhaps least useful figure in book)
 
 Exam will be online after class today at 8pm. Questions in office hours. Turned in only online. Etc.
 
-## Chromosomal Evolution
-
-### Changes in chromosome number:
+## Changes in chromosome number:
 
 Euploid -- multiples of a full set of chromosomes
 
@@ -19,22 +17,23 @@ Euploid -- multiples of a full set of chromosomes
 - monoploid (males in bees, wasps, ants.)  why bad <strong style="font-size: 150%; color: red;">?</strong> deleterious recessives
 - with odd multiples problem is <strong style="font-size: 150%; color: red;">?</strong>  draw triploid. explain **bivalents** and segregation of **univalents**
 
-#### Aneuploidy
+### Aneuploidy
 
-Icomplete sets, too many or few of one or more chromosomes
+Incomplete sets, too many or few of one or more chromosomes
 
 - disomic, monosomic, trisomic etc.
 - e.g. <strong style="font-size: 150%; color: red;">?</strong> Down's syndrome or trisomy 21. 
 
-#### Polyploid types
+### Polyploid types
 
 * autopolyploid - from single parent, doubles
 
 * allopolyploid - from two different parents, usually F1 sterile, then doubles. **homeologous** chromosomes
 
 
-        Gene balance
-            relative expression levels of genes matters.  relative expression of transcription factors that turns on cell growth in the middle or edge of a leaf you could imagine changes the shape of the leaf
+### Gene balance
+
+relative expression levels of genes matters.  relative expression of transcription factors that turns on cell growth in the middle or edge of a leaf you could imagine changes the shape of the leaf
                 DRAW
             double copies of a gene, what effect on transcription? (double)
             double every gene in the genome, what's the effect on the relative ratio? (none)
@@ -72,7 +71,7 @@ Icomplete sets, too many or few of one or more chromosomes
                 book claims allopolyploidy more common than auto.  not sure the evidence supports that.  auto is harder to detect — behaves same, but bigger. 
                      can't detect it genomically as above (why?)
         Example: draw 17-9 from book
-Structural rearrangements
+## Structural rearrangements
     deletion and insertion we've covered — but can happen to large regions
         why would a very large (100's of kb) deletion very likely be deleterious?
             remove gene copies, so likely very bad to lethal in homozygous form
