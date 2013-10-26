@@ -43,6 +43,7 @@ Skip 4.3,4.4
 * can be silly <strong style="font-size: 150%; color: red;">?</strong> what other effects might an allele that increases height have?
 * "real" pleiotropy is traits that are less obviously correlated.  perhaps an enzyme is ne5eded for pathway to flower and to make leaf hairs.  a mutant in the gene for that enzyme would have two phenotypes
 
+<<<<<<< HEAD
 ## How many loci?
 
 In Arabidopsis example (hairy vs. glabrous leaves) from last time, two mutants, how know if same or different loci?
@@ -54,6 +55,26 @@ In Arabidopsis example (hairy vs. glabrous leaves) from last time, two mutants, 
 WT red plant, mutant white
 
 * make recessive homozygote lines of two recessive mutants (so now a<A and b<B), cross to make double mutants
+=======
+## Pathways
+
+genes not in vacuum and not just make one product that does it's thing
+
+we've considered effects of alleles at each gene independent of others
+
+* e.g. effects of alleles at the round/wrinkled locus not change effects of alleles at the yellow/green locus
+* usually or often not the case
+    ￼
+Example: oversimplification of flowering time pathway in rice
+
+<img src="./images/rice_pathway.jpg" style="width: 300px;"/>
+
+#### Simple pathway example
+
+* precursor1-> (enzyme A from gene A)-> precursor2->(enzyme B gene B)->red fruit (wt ) 	- DRAW (leave on board) with enzymes as looped arrows not in pathway
+* make recessive homozygote lines of two recessive mutants (so now a<A and b<B), cross to make double mutants
+* **complementation** test
+>>>>>>> exam
 * draw out two possibilities (separate loci, same locus)
 * <strong style="font-size: 150%; color: red;">?</strong> If I cross two whites -> red 1 or 2 loci (what are genos)? 	
  	- aaBB x AAbb (both white) = ? AaBb (red)
@@ -62,6 +83,7 @@ WT red plant, mutant white
 * what if I take two white plants w/ recessive mutants cross and = white?
 	- perhaps aaBB x a'a'BB = aa'BB (fail to complement b/c just two mutations of same gene)
 
+<<<<<<< HEAD
 
 ## Pathways
 
@@ -76,6 +98,9 @@ Example: oversimplification of flowering time pathway in rice
 
 <img src="./images/rice_pathway.jpg" style="width: 300px;"/>
 
+=======
+fig. 6-12 in the book rad
+>>>>>>> exam
 
 ## Epistasis
 
@@ -87,11 +112,16 @@ What about interaction among genes? like in these pathways?
 
 **epistasis** "stand upon" 
 
+<<<<<<< HEAD
 <!--* statistical epistasis is observation of an interaction, but unknown gene(s)
+=======
+* statistical epistasis is observation of an interaction, but unknown gene(s)
+>>>>>>> exam
 	- late flowering allele may make you flower 3 days later in one plant, but only 1 day later in another or 2 days earlier in a third
 	- an allele that always made all plants flower 3 days later, regardless of genotype —> no epistatic interactions
 * biochemical epistasis -> known pathway & functions
 
+<<<<<<< HEAD
 Above distinction not clear and not important.  Skip.
 -->
 
@@ -99,6 +129,11 @@ Above distinction not clear and not important.  Skip.
 
 precursor-> (enzyme A makes pigment)-> yellow pigment->(enzyme B turns yellow red)->red fruit (wt ) 
 	- DRAW (leave on board) with enzymes as looped arrows not in pathway
+=======
+#### back to drawing (precursors): 
+
+precursor-> (enzyme A makes pigment)-> yellow pigment->(enzyme B turns yellow red)->red fruit (wt ) 
+>>>>>>> exam
 
 aaBB ( white ); aabb (white); AAbb (yellow); AABB (red); AABB (red); 
 
@@ -113,7 +148,10 @@ that's an example of recessive epistasis
 dominant is possible too!  so now Aa - -  would also be white! (a > A)
 
 Epistasis vocab (know definition, but not worry about crosses on test)
+<<<<<<< HEAD
 
+=======
+>>>>>>> exam
 * **suppressor**  (mutant that suppresses effects of other mutant making it wt)
 * **synthetic lethals** (two mutants @ different genes each nonlethal together lethal)
 * **penetrance** (% individuals with the phenotype)
