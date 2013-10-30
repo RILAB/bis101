@@ -154,8 +154,8 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 * Exam \#1 assigned, due on Smartsite by 5pm on Oct. 31
 * Reading: [Ibarra-Laclette et al. 2013](http://www.nature.com/nature/journal/v498/n7452/full/nature12132.html)
 * Homework Questions: 
-	- Ch. 17 39, 44
-	- Ch. 7 23, 27, 30
+	- Ch. 17: 39, 44
+	- Ch. 7: 23, 27, 30
 
 ### Tuesday Oct. 29
 * **DNA**
@@ -167,54 +167,58 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 * Exam \#1 due on Smartsite by 5pm
 * Reading: Griffiths Ch. 16
 * Reading: [Baudat et al. 2009](http://www.sciencemag.org/content/327/5967/836.long)
-* Homework Questions: TBA
+* Homework Questions: 
+	- Ch. 8: 20,21,27
+	- Ch. 16: 8, 21
 
 ### Tuesday Nov. 5
 * **RNA**
 * Reading: Griffiths Ch. 8
-* Reading: [TBA](Blah)
+* Reading: Waters, Bilinski et al. 2013 (Only on Smartsite)
 
 ### Thursday Nov. 7
 * **Regulation of Gene Expression**
-* Reading: Griffiths Ch. 11,12
-* Homework Questions: TBA
-* Reading: [TBA](Blah)
+* Reading: Griffiths Ch. 11
+* Homework Questions: 
+	- Ch. 9: 12, 43
+	- Ch. 11: 9
+	- Ch. 12: 15, 30
+* Reading: Waters, Bilinski et al. 2013 (Only on Smartsite)
 
 ### Tuesday Nov. 12
-* **Proteins**
-* Reading: Griffiths Ch. 9
-* Reading: [TBA](Blah)
+* **Regulation of Gene Expression**
+* Reading: Griffiths Ch. 12
+* Reading: [Lynch et al. Unpublished](http://arxiv.org/pdf/1208.4639v1.pdf)
 
 ### Thursday Nov. 14
-* **Transposable Elements**
-* Reading: Griffiths Ch. 15
+* **Proteins**
+* Reading: Griffiths Ch. 9
+* Reading: [Lynch et al. Unpublished](http://arxiv.org/pdf/1208.4639v1.pdf)
 * Homework Questions: TBA
-* Reading: [TBA](Blah)
 
 ### Tuesday Nov. 19
+* **Transposable Elements**
+* Reading: Griffiths Ch. 15
+
+### Thursday Nov. 21
 * **Gene Isolation and Manipulation**
 * Reading: Griffiths Ch. 10
 * Reading: [TBA](Blah)
+* Homework Questions: TBA
  
-### Thursday Nov. 21
+### Tuesday Nov. 26
 * **Development**
 * Reading: Griffiths Ch. 13
 * Homework Questions: TBA
 * Reading: [TBA](Blah)
  
-### Tuesday Nov. 26
-<!--add 14.6 to reading-->
-* **Forward and Reverse Genetics**
-* Reading: Griffiths Ch. 2
-* Homework Questions: TBA
-* Reading: [TBA](Blah)
-
 ### Thursday Nov. 28
 * **No Class, University Holiday**
-
+ 
 ### Tuesday Dec. 3
-* **Genomics**
-* Reading: Griffiths Ch. 2
+<!--- 14.6, 10?, 2? -->
+* **Forward and Reverse Genetics**
+* Reading: Griffiths Ch. 2, Ch. 14.6
 * Reading: [Studer et al. 2011](http://www.panzea.org/pdf/Studer_etal_2011_Nat_Genet_43_1160.pdf)
 
 ### Thursday Dec. 5
