@@ -179,36 +179,36 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 ### Thursday Nov. 7
 * **Regulation of Gene Expression**
 * Reading: Griffiths Ch. 11
+* * Reading: Waters, Bilinski et al. 2013 (Only on Smartsite)
 * Homework Questions: 
 	- Ch. 9: 12, 43
 	- Ch. 11: 9
 	- Ch. 12: 15, 30
-* Reading: Waters, Bilinski et al. 2013 (Only on Smartsite)
 
 ### Tuesday Nov. 12
 * **Regulation of Gene Expression**
 * Reading: Griffiths Ch. 12
-* Reading: [Lynch et al. Unpublished](http://arxiv.org/pdf/1208.4639v1.pdf)
 
 ### Thursday Nov. 14
 * **Proteins**
 * Reading: Griffiths Ch. 9
-* Reading: [Lynch et al. Unpublished](http://arxiv.org/pdf/1208.4639v1.pdf)
 * Homework Questions: TBA
 
 ### Tuesday Nov. 19
 * **Transposable Elements**
 * Reading: Griffiths Ch. 15
+* Reading: [Lynch et al. Unpublished](http://arxiv.org/pdf/1208.4639v1.pdf)
 
 ### Thursday Nov. 21
 * **Gene Isolation and Manipulation**
 * Reading: Griffiths Ch. 10
-* Reading: [TBA](Blah)
+* Reading: [Lynch et al. Unpublished](http://arxiv.org/pdf/1208.4639v1.pdf)
 * Homework Questions: TBA
  
 ### Tuesday Nov. 26
 * **Development**
 * Reading: Griffiths Ch. 13
+* Reading: [Lynch et al. Unpublished](http://arxiv.org/pdf/1208.4639v1.pdf)
 * Homework Questions: TBA
 * Reading: [TBA](Blah)
  
