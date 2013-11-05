@@ -178,7 +178,7 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 
 ### Thursday Nov. 7
 * **Regulation of Gene Expression**
-* Reading: Griffiths Ch. 11
+* Reading: Griffiths Ch. 12
 * * Reading: Waters, Bilinski et al. 2013 (Only on Smartsite)
 * Homework Questions: 
 	- Ch. 9: 12, 43
@@ -187,7 +187,7 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 
 ### Tuesday Nov. 12
 * **Regulation of Gene Expression**
-* Reading: Griffiths Ch. 12
+* Reading: Griffiths Ch. 11
 
 ### Thursday Nov. 14
 * **Proteins**
