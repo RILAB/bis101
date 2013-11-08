@@ -102,7 +102,7 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 ### Thursday Sept. 26
 * **Mendelian Inheritance**
 * Reading: Griffiths Ch. 2
-* Homework Questions: 
+* Homework Questions (Due Oct. 3): 
 	- Ch. 2: 23,38,48,49,54
 	- Ch. 3: 13,20,28,32,46
 
@@ -115,7 +115,7 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 * **Gene Interaction**
 * Reading: Griffiths Ch. 6
 * Reading: [Liu et al. 2012](http://schnablelab.plantgenomics.iastate.edu/publications/download.cgi?id=113)
-* Homework Questions: 
+* Homework Questions (Due Oct. 10): 
 	- Ch. 4: 25, 45, 63	
 	- Ch. 6: 36, 62
 
@@ -128,7 +128,7 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 * **Quantitative Genetics**
 * Reading: Griffiths Ch. 19
 * Reading: [Schemske and Bradshaw 1999](http://www.pnas.org/content/96/21/11910.full.pdf)
-* Homework Questions:
+* Homework Questions (Due Oct. 17):
  	- Ch. 18: 10,18
 	- Ch. 19: 8,12,13
 
@@ -141,7 +141,7 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 * **Genomics and Phylogenetics**
 * Reading: Griffiths Ch. 14, 20
 * Reading: [Johnston et al. 2013](http://www.nature.com/nature/journal/vaop/ncurrent/pdf/nature12489.pdf)
-* Homework Questions: 
+* Homework Questions (Due Oct. 24):
 	- Ch. 14: 25,26,27
 	- Ch. 20: 21,22 
 
@@ -153,7 +153,7 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 ### Thursday Oct. 24
 * Exam \#1 assigned, due on Smartsite by 5pm on Oct. 31
 * Reading: [Ibarra-Laclette et al. 2013](http://www.nature.com/nature/journal/v498/n7452/full/nature12132.html)
-* Homework Questions: 
+* Homework Questions (Due Nov. 5): 
 	- Ch. 17: 39, 44
 	- Ch. 7: 23, 27, 30
 
@@ -167,7 +167,7 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 * Exam \#1 due on Smartsite by 5pm
 * Reading: Griffiths Ch. 16
 * Reading: [Baudat et al. 2009](http://www.sciencemag.org/content/327/5967/836.long)
-* Homework Questions: 
+* Homework Questions (Due Nov. 7): 
 	- Ch. 8: 20,21,27
 	- Ch. 16: 8, 21
 
@@ -180,7 +180,7 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 * **Regulation of Gene Expression**
 * Reading: Griffiths Ch. 12
 * * Reading: Waters, Bilinski et al. 2013 (Only on Smartsite)
-* Homework Questions: 
+* Homework Questions (Due Nov. 14): 
 	- Ch. 9: 12, 43
 	- Ch. 11: 9
 	- Ch. 12: 15, 30
@@ -188,11 +188,15 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 ### Tuesday Nov. 12
 * **Regulation of Gene Expression**
 * Reading: Griffiths Ch. 11
+* Reading: [Kudla et al. 2009](http://www.sciencemag.org/content/324/5924/255.full)
 
 ### Thursday Nov. 14
 * **Proteins**
 * Reading: Griffiths Ch. 9
-* Homework Questions: TBA
+* Homework Questions (Due Nov. 21): 
+	- Ch. 10: 13, 18, 29
+	- Ch. 15: 11, 18
+* Reading: [Kudla et al. 2009](http://www.sciencemag.org/content/324/5924/255.full)
 
 ### Tuesday Nov. 19
 * **Transposable Elements**
@@ -203,22 +207,23 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 * **Gene Isolation and Manipulation**
 * Reading: Griffiths Ch. 10
 * Reading: [Lynch et al. Unpublished](http://arxiv.org/pdf/1208.4639v1.pdf)
-* Homework Questions: TBA
- 
+* Homework Questions (Due Dec. 3): : 
+	- Ch. 10: 31, 32
+	- Ch. 13: 9, 14
+	- Ch. 14: 34 
+	
 ### Tuesday Nov. 26
 * **Development**
 * Reading: Griffiths Ch. 13
 * Reading: [Lynch et al. Unpublished](http://arxiv.org/pdf/1208.4639v1.pdf)
-* Homework Questions: TBA
-* Reading: [TBA](Blah)
+* Homework Questions (Due Dec. 5): TBA
  
 ### Thursday Nov. 28
 * **No Class, University Holiday**
  
 ### Tuesday Dec. 3
-<!--- 14.6, 10?, 2? -->
 * **Forward and Reverse Genetics**
-* Reading: Griffiths Ch. 2, Ch. 14.6
+* Reading: Griffiths Ch. 2, Ch. 10, Ch. 14 (especially 14.6)
 * Reading: [Studer et al. 2011](http://www.panzea.org/pdf/Studer_etal_2011_Nat_Genet_43_1160.pdf)
 
 ### Thursday Dec. 5

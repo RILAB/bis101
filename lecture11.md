@@ -119,24 +119,3 @@ recognizes these sites, loops out intron, and cuts.
 
 on 3' end adds string of 150+ adenine nucleotides **polyA tail**
 
-## Regulation by miRNA and siRNA
-
-DRAW 
-
-<img src="/Users/jri/src/bis101/griffiths/ch08/ch08/figure_08_20.jpg" style="width: 300px;"/>
-
-miRNA genes make a longer RNA, makes a hairpin **dsRNA** transported to cytoplasm 
-
-there **diceer** complex chops to bits. and **risc** complex grabs, binds onto complementary mRNA, prevents translation or pops of poly-A tail which hastens degradation.  **post-transcriptional gene silencing**
-
-in contrast, **siRNA** has dicer/risc implementation, but different origin. usually dsRNA caused by non-endogenous DNA.  what's this<strong style="font-size: 150%; color: red;">?</strong>
-
-petunia example. explanation <strong style="font-size: 150%; color: red;">?</strong>
-
-transgene goes in, makes antisense mRNA. dsRNA triggers dicer/risc. this can cause **transcriptional gene silencing** too preventing transcription epigenetically.
-
-how does a transgene make antisense mRNA <strong style="font-size: 150%; color: red;">?</strong> read-through transcription from opposite strand! 
-
-molecular can use this to invoke **RNAi** if i want to **knock-down** (what's knock-out <strong style="font-size: 150%; color: red;">?</strong> ) a gene, i can inject dsRNA into cells!
-
-
