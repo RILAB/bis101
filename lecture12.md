@@ -4,7 +4,7 @@
 
 Don't focus on details of systems e.g. phage, arabinose, etc. but concept of operons. Same is true of Ch. 12 -- don't worry about details of Gal4 or mating system, or red eye. Concepts are what's important. Even details of mechanism are unimportant (some we don't know, some will change, all you can look up)
 
-<!-- Next time, don't mention miRNA and siRNA until end? -->
+<!-- Next time, don't mention miRNA and siRNA until end? This is probably TWO lectures! -->
 
 ## Notes
 
@@ -99,7 +99,7 @@ block enhancer action. binding of proteins that act perhaps by loop formation
 
 ## epigenetics
 
-Define <strong style="font-size: 150%; color: red;">?</strong> Inheritance of chromatin or methylation states from one generation to another.
+Define <strong style="font-size: 150%; color: red;">?</strong> Inheritance of DNA modification from one generation to another.
 
 * Doesn't invalidate all of mendel
 * Doesn't invalidate pop or quant genetics
@@ -114,17 +114,19 @@ Nucleosome<strong style="font-size: 150%; color: red;">?</strong>
 * 150bp DNA wrapped around histone octamer. histone tails stick out to interact w/ phosphate backbone
 
 chromatin -- not in prokaryotes
-	* heterochromatin vs. euchromatin
-	* gene content differences
-	* constitutive heterochromatin around centromeres, telomeres, large repeat areas
+
+* heterochromatin vs. euchromatin
+* gene content differences
+* constitutive heterochromatin around centromeres, telomeres, large repeat areas
 
 in prokaryotes most genes default state is ON
 
 in eukaryotes most gene default state is OFF because chromatin blocks promoter/enhancer so no transcription possible
 	
 assay chromatin state: DNAse-seq.
-	* apply DNAse which chops up DNA in exposed chromatin
-	* sequence and map back to genome	
+
+* apply DNAse which chops up DNA in exposed chromatin
+* sequence and map back to genome	
 
 Can modify chromatin state to regulate gene expression. 
 
@@ -141,7 +143,9 @@ Histone's have an amino group on end of lysine side chain on tail.
 
 **chromatin remodeling** process of moving nucleosomes
 
-During DNA replication, histones are broken up and split among daughter moleculares
+During DNA replication, histones are broken up and split among daughter molecules.
+
+<!-- Does this copy acetylation too? Or only histone methylation?? -->
 
 ### methylation
 
