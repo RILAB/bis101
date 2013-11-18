@@ -4,7 +4,7 @@
 
 Don't focus on details of systems e.g. phage, arabinose, etc. but concept of operons. Same is true of Ch. 12 -- don't worry about details of Gal4 or mating system, or red eye. Concepts are what's important. Even details of mechanism are unimportant (some we don't know, some will change, all you can look up)
 
-<!-- Next time, don't mention miRNA and siRNA until end? This is probably TWO lectures! -->
+<!-- Next time, don't mention miRNA and siRNA until end? -->
 
 ## Notes
 
@@ -99,7 +99,7 @@ block enhancer action. binding of proteins that act perhaps by loop formation
 
 ## epigenetics
 
-Define <strong style="font-size: 150%; color: red;">?</strong> Inheritance of DNA modification from one generation to another.
+Define <strong style="font-size: 150%; color: red;">?</strong> Inheritance of chromatin or methylation states from one generation to another.
 
 * Doesn't invalidate all of mendel
 * Doesn't invalidate pop or quant genetics
@@ -143,9 +143,7 @@ Histone's have an amino group on end of lysine side chain on tail.
 
 **chromatin remodeling** process of moving nucleosomes
 
-During DNA replication, histones are broken up and split among daughter molecules.
-
-<!-- Does this copy acetylation too? Or only histone methylation?? -->
+During DNA replication, histones are broken up and split among daughter moleculares
 
 ### methylation
 
