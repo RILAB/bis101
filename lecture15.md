@@ -1,5 +1,16 @@
 # BIS101 F2013 Lecture 15: Transposable Elements
 
+See accompanying TEs pdf.
+
+## Reading
+
+Skip 10.4
+
+## Notes
+
+regrades done this week?
+reading Lynch. Kudla annotations on Smartsite.
+
 ##Genome Size
 
 ####C-value paradox
@@ -24,7 +35,7 @@ Transposable elements are pieces of DNA that can replicate themselves in the gen
 
 #### RNA elements Class I
 
-- transcribe RNA, reverse transcribe into DNA (reverse transcriptase)
+- transcribe RNA, use an enzyme called reverse transcriptase (what does it do<strong style="font-size: 150%; color: red;">?</strong> )transcribe into DNA
 - DNA moved to nucleus, integrase inserts into genome.
 - copy and paste
 - small to very large (20kb)
