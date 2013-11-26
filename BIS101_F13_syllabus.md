@@ -204,19 +204,21 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 * Reading: [Lynch et al. Unpublished](http://arxiv.org/pdf/1208.4639v1.pdf)
 
 ### Thursday Nov. 21
-* **Gene Isolation and Manipulation**
+* **TEs continued**
 * Reading: Griffiths Ch. 10
 * Reading: [Lynch et al. Unpublished](http://arxiv.org/pdf/1208.4639v1.pdf)
-* Homework Questions (Due Dec. 3): : 
+* Homework Questions (Due Dec. 3):
 	- Ch. 10: 31, 32
 	- Ch. 13: 9, 14
 	- Ch. 14: 34 
 	
 ### Tuesday Nov. 26
-* **Development**
+* **Gene Isolation and Manipulation**
 * Reading: Griffiths Ch. 13
 * Reading: [Lynch et al. Unpublished](http://arxiv.org/pdf/1208.4639v1.pdf)
-* Homework Questions (Due Dec. 5): TBA
+* Homework Questions (Due Dec. 5):
+	- Ch. 10: 22, 28
+	- Ch. 14: 15, 22, 34 
  
 ### Thursday Nov. 28
 * **No Class, University Holiday**
@@ -227,7 +229,7 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 * Reading: [Studer et al. 2011](http://www.panzea.org/pdf/Studer_etal_2011_Nat_Genet_43_1160.pdf)
 
 ### Thursday Dec. 5
-* **Case Study: *tb1***
+* **Forward and Reverse Genetics***
 * Exam \#2 assigned, due on Smartsite by 10:30pm on Dec. 11
 * Reading: Griffiths Ch. 2
 * Reading: [Studer et al. 2011](http://www.panzea.org/pdf/Studer_etal_2011_Nat_Genet_43_1160.pdf)
