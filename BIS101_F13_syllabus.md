@@ -218,7 +218,7 @@ If you have enrolled in BIS 101D, you must attend the session in which you regis
 * Reading: [Lynch et al. Unpublished](http://arxiv.org/pdf/1208.4639v1.pdf)
 * Homework Questions (Due Dec. 5):
 	- Ch. 10: 22, 28
-	- Ch. 14: 15, 22, 34 
+	- Ch. 14: 15, 22, 24 
  
 ### Thursday Nov. 28
 * **No Class, University Holiday**

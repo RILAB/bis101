@@ -1,5 +1,7 @@
 # CENH3 example
 
+explain CENH3 -- histones, nucleosome, centromere seqeuence vs epigenetic
+
 explain mu insertion lines
 
 show browser
