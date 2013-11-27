@@ -54,6 +54,9 @@ Restriction enzymes. Proteins that cut DNA. Can leave blunt or sticky ends.
 
 e.g. EcoRI GAATTC cuts at first G and last C (show). Where else have we seen sticky ends from restriction enzymes<strong style="font-size: 150%; color: red;">?</strong> TE insertion sites.
 
+Sequences will have multiple restriction sites. Presence absence of sites can be found by running on gel. Can separate DNA based on size. DNA negatively charged, so can run current and DNA moves through gel.
+
+
 #### Cloning
 
 Process of copying a DNA not by PCR but by making bacteria do it for you.
@@ -81,9 +84,7 @@ Bacteria can be transformed via:
 
 We can use cloning to make libraries of seuqence (cDNA or DNA). But how do we check for presence of sequence of interest.
 
-Gel electrophoresis. Can separate DNA based on size. DNA negatively charged, so can run current and DNA moves through gel.
-
-Can also use a petri dish of colonies. 
+Can use a petri dish of colonies or gel.
 
 Transfer DNA from gel or plate onto a membrane, and wash the membrane with radioactively labelled sequence of interest. Then expose to X-Ray film (results is **autoradiogram**)and find witch band or which colony has sequence. Can also use flourescently tagged DNA and expose to light and photograph. 
 
