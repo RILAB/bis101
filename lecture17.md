@@ -1,4 +1,4 @@
-# BIS101 F2013 Lecture 16: Gene Isolation and Manipulation
+# BIS101 F2013 Lecture 17: Forward and Reverse Genetics
 
 ## Notes
 
