@@ -3,32 +3,32 @@
 ##Syllabus
 		
 * #### Instructors
-	- me: evolutionary genetics, genomcis of maize (bias)
-		* good news: i like genetics! bad news: first time through
+	- me: evolutionary genetics, genomics of maize (bias)
+		* good news: i like genetics!
 	- contact info (email, website, twitter, office hours)
 	- TA introduction, contact info, office hours
 
 * #### Text
-	- John/Sue
+	- mention John/Sue, TEs, pop/quant
 	
 * #### Lectures
 	- note lecture order is not same as book order!
 	- some book material responsible (mitosis and meiosis)
-	- some book material can skip (section on bears in ch. 2)
-	- concepts not memorization (example of midterm Spring 2013)
+	- some book material can skip (section on jellyfish genetics in ch. 3)
+	- concepts not memorization
 	- my philosophy: appreciate genetics, know general concepts, can look rest up
-	- lecture notes on github: not for students, but pull requests!
-	- I suspect lectures will be pretty easy.
+	- lecture notes on bitbucket: pull requests!
 * #### Grading
-	- Top 50% A or B
+	- Strict breakdown: should work to ~50% A or B
 * #### Exams
-	- takehome: also example of philosophy!
+	- in class: also example of philosophy!
+	* wanted to do takehome, but students last fall ruined it (way too much cheating)
 	- no date yet, probably Oct. 24 or 31.
 * #### Homework
 	- For this week:
 		- Ch. 2: 23,38,48,49,54
 		- Ch. 3: 13,20,32,28,46
-* #### Class Participation
+* #### Primary literature
 	- How many have read a scientific paper from the primary research lit?
 	- I said lectures are gonna be easy. Homework is a gimme. This is gonna be hard.
 * #### Academic honesty
@@ -166,11 +166,12 @@ Attempt to draw phenotypes for each genotype (Tga1/Tga1 naked, tga1/tga1 covered
 
 Mendel crossed some peas. Figured out genetics.
 
-<strong style="font-size: 150%; color: red;">?</strong> First law: equal segregation. Alleles at a locus segregate w/ equal probability. An A/a individual will produce 50% A and 50% a.
+<strong style="font-size: 150%; color: red;">?</strong> First law: equal segregation. Alleles at a locus segregate w/ equal probability. An A1/A2 individual will produce 50% A1 and 50% A2.
 
 #### Cross two corn plants
 
-Tga1/Tga1 x tga1/tga1 
+Tga1/Tga1 x tga1/tga1  
+
 * label **parental**, **fileal** generation
 * <strong style="font-size: 150%; color: red;">?</strong> are all F1 alike?
 	       
