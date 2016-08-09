@@ -6,15 +6,19 @@ represses lateral organ growth
 
 ## fine mapping
 
-previous work mapped causative locus to ~60kb upstream of tb1 ORF. implying <strong style="font-size: 150%; color: red;">?</strong> enhancer
+previous work mapped causative locus to region around tb1. but no coding differences between maize and teosinte . possible explanation <strong style="font-size: 150%; color: red;">?</strong>
+
+later work fine-mapped this to a region  ~60kb upstream of tb1 ORF. implying <strong style="font-size: 150%; color: red;">?</strong> enhancer
 
 Made big mapping pop, isolated recombinants in this region: how <strong style="font-size: 150%; color: red;">?</strong> Dense array of markers in region, look for CO
 
 Found 18 COs in region, made each homozygous by selfing
 
-Two different components to region that affect phenotype differently
+Two different components to region that affect phenotype differently. multiple effects on phenotype (Pleiotropy).
 
 ### Popgen analysis
+
+previous work had shown decreased diversity 5' UTR and up to 60kb away from tb1. NO coding differences in tb1!
 
 lower diversity in maize than teo suggests <strong style="font-size: 150%; color: red;">?</strong> selection on maize
 
@@ -35,9 +39,9 @@ Evidence for selection combined w/ fine-mapping limits area for causative mutati
 In this regions, only 4 differences between maize and teosinte.:
 
 * 2 SNPs
-* two TEs: a MITE (nonautonomous DNA transposon) & a larger Helitron (LTR retro)
+* two TEs: a MITE (nonautonomous DNA transposon) & a larger Hopscotch (LTR retro)
 
-Tested each in transient assay (enhancer bashing). (NOS terminator stops transcription)
+Tested each in transient assay (enhancer trapping). (NOS terminator stops transcription)
 
 Distal represses expression, but with or without MITE
 

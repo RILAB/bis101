@@ -1,4 +1,4 @@
-# BIS101 F2013 Lecture 10: Mutation
+# BIS101 F2014 Mutation
 
 ## Point Mutations (single nucleotide/base)
 
@@ -10,24 +10,24 @@ We have mentioned these briefly, but now in more detail. Other forms of mutation
 	- C-T/A-G vs. not
 	- but keep track of both strands: GC->AT transition but GC->TA transverion
  * transitions caused by wrong form of base. 
-	- Each of the bases exists in >1 form. 
+	- Each of the bases exists in >1 form: tautomers (differ due to movement of an H and shifting of a double bond). 
 	- Normal "keto" form is found in DNA. 
-	- But shift of the bonds (ionized form) will lead to slightly different form that then pairs incorrectly. I.E. imino cytosine pairs with adenine instead of guanine during replication
+	- But shift of the bonds (ionized form) will lead to slightly different form that then pairs incorrectly. I.E. imino cytosine pairs with adenine instead of guanine during replication.
+	- next round of replication the CA -> TA in one of the daughter cells.
 * transversions caused by accidental pairing of pyrimidine w/ self or purine w/ self during replication
 
 **indel** insertion/deletion
 
-* determining ancestry hard (show)
-* **Replication slippage.** Draw CTGAGAGA and complement.
+* determining ancestry hard (show with tree)
+* **Replication slippage.** Draw CTGAGAGAGA and complement.
 * pops out a single strand loop.  loop either deleted or added next round.
 * expansion of trinucleotide repeat arrays due to rep. slippage can cause diseases in humans like fragile X, huntington's disease (spinal and muscular atrophy)
 
-when do mutations occur?  common misconception is that selection agent arises (say antibiotics) and that CAUSES adaptive mutations to arise. 
+sometimes adaptation/evolution occurs from new mutations that arise after selection, but often occurs as a reulst of **standing genetic variation** or mutations segregating in the population.
 
-sometimes adaptation/evolution occurs from **spontaneous** mutations that arise after selection, but often occurs as a reulst of **standing genetic variation** or mutations segregating in the population.
-
-Luria/Delbruck teset in book is classic experiment testing this.
-
+common misconception is that selection agent arises (say antibiotics) and that CAUSES adaptive mutations to arise.
+ 
+Luria/Delbruck test in book is classic experiment testing this. If selective agent (antibiotics) causes mutation, all plates shoudl show same rate.  But if mutations occur spontaneously, depending on when it arose different numbers of colonies will have resistance.
 
 ### Effects on protein coding sequence
 
@@ -36,9 +36,9 @@ recall that DNA is transcribed to RNA, and RNA translated to protein in codons o
 **synonymous**. likely effect <strong style="font-size: 150%; color: red;">?</strong> usually mild
 
 * codon usage bias: if most of the tRNAs use one codon, then another codon even of same AA will have to wait longer, so gene is transcribed slower. 
-* weak or strong selection <strong style="font-size: 150%; color: red;">?</strong> weak. generally only found in genes that are really highly expressed and needed all the time.
+* weak or strong selection <strong style="font-size: 150%; color: red;">?</strong> weak. generally only found in genes that are really highly expressed. why<strong style="font-size: 150%; color: red;">?</strong> kudla suggest so doesn't mess up other genes.
 
-**nonsynonmyous** (missense). likely effet <strong style="font-size: 150%; color: red;">?</strong> depends
+**nonsynonmyous** (missense). likely effect <strong style="font-size: 150%; color: red;">?</strong> depends
 
 * AA come in all sorts of categories: size, charge, hydrophobic/hydrophilic, etc.
 * replacement of an AA with a similar one might be neutral. sometimes only need an AA of particular quality.
@@ -54,7 +54,7 @@ recall that DNA is transcribed to RNA, and RNA translated to protein in codons o
 
 **splice-site**. what is a splice site<strong style="font-size: 150%; color: red;">?</strong>
 
-* usually bad, because turns intron -> exon and messes everything up
+* usually bad, because turns intron -> exon and messes everything up (ex. in Yin et al. paper!)
 
 ### Effects on noncoding
 
@@ -62,13 +62,12 @@ Harder to predict. Some proportion of noncoding DNA likely junk, so who cares.
 
 In Drosophila though a majority of noncoding mutations seem to be influenced by selection.
 
-Why would noncoding mutation matter <strong style="font-size: 150%; color: red;">?</strong>
+Why woenld noncoding mutation matter <strong style="font-size: 150%; color: red;">?</strong>
 
 All sorts of important DNA regions that don't code for protein: promoters, enhancers, etc. -- regions where proteins or RNA that regulate a gene bind either to DNA or RNA
 
 Consequences include change in expression level, in where expression occurs. Can be mild, but can be just as deleterious as changes in protein coding regions.
 
-Mutations in a noncoding region could, for example, affect where PRDM9 binds and thus change where recombination hotspots occur.
 
 ## Mechanisms of spontaneous mutations
 
@@ -76,18 +75,17 @@ DNA replication as mentioned above
 
 * In total, replication error is on order of 10^-5!! In human genome that means replication causes 30,000 new mutations!
 
-
 #### Spontaneous lesions
 
 Naturally occuring damage to DNA.
 
-depurination - purine base losty when bond to deoxyribose as broken. happense spontaneously can be exacerbated by environment
- * resulting apurinic site has no base, so nothing to pair!
+depurination - purine base lost when bond to deoxyribose is broken. happense spontaneously and can be exacerbated by environment. some studies suggest as much as 5K of these per day in human cells.
+ * resulting apurinic site has no base, so nothing to pair! wrong base likely incorporated in next round
 
 deamination - loss of amino group cytosine -> uracil
 
 * next round of replication, uracil pairs with <strong style="font-size: 150%; color: red;">?</strong> adenine. so GC -> AT what kind <strong style="font-size: 150%; color: red;">?</strong> (transition)
-* especially common in methlyated cytosine. as we will see, 5-methyl cytosine is important enough to be called sometimes 5th base
+* especially common in methlyated cytosine (and what bisulfite sequencing does! (correction from last time))
 
 #### Induced mutation
 
@@ -95,15 +93,15 @@ Things that can cause mutants called **mutagens**
 
 **base damage** 
 
-* UV can cause pyramidines on same strand to covalently bond, preventing DNA replication or transcription. these are the primary cause of skin cancer in humans.
+* UV can cause pyramidines (CTU) on same strand to covalently bond, preventing DNA replication or transcription. these are the primary cause of skin cancer in humans. e.g. thymine dimer
 	- organisms living at high altitude have to adapt to increased UV radiation. CORN!
-* ionizing radiation can cause apurination, strand breaks, etc.
+* ionizing radiation can cause depurination, strand breaks, etc.
 
 **base analogs**. molecules sufficiently similar that can be incorporated, but pair wrong. (2-amino-purine e.g.)
 
 **alteration of bases** causing them to pair incorrectly
 
-**intercalation** <strong style="font-size: 150%; color: red;">?</strong> molecules that can slip between bases and cause insertion deletions during replication.
+**intercalation** <strong style="font-size: 150%; color: red;">?</strong> molecules that can slip between bases and cause insertion/deletions during replication.
 
 * how many of you worked with gel? EtBr is intercalating agent. how it binds DNA on gel, and what happens when it gets on you!
 
@@ -117,7 +115,7 @@ DNA polymerase
 * different polymerases have different abilities to recognize/tolerate different mutations
 * This drops from 10^-5 to 10^-7, but still 300 mutations every replication!
 
-direct reversal
+Direct reversal
 
 * other enzymes can directly reverse some mutations (e.g.thymine dimers) but in general rare
 
@@ -135,15 +133,15 @@ Finally **mismatch repair**
 * How recognize which is the wrong base <strong style="font-size: 150%; color: red;">?</strong>
 	- mentioned cytosine methylation, but adenine also methylated
 	- since DNA replication is semiconservative, old strand will have methylation and errors always in new strand!
-* unknown in eukaryotes!
-* mutations in genes that do this in humans lead to e.g. syndromes that are high risk for cancer. so common odds are good 1 person in this room has it.
+	- not well understood in eukaryotes!
+* mutations in genes that do this in humans lead to e.g. syndromes that are high risk for cancer. not that rare: odds are good 1 person in this room has it.
 	- the locus is haplosufficient. cells with one good copy fxn normal
 	- so is mutation dominant or recessive <strong style="font-size: 150%; color: red;">?</strong>
 	- normally yes, but here what happens is anytime you accidentally lose or knock out the other copy, a cell with just the mutant copy (hemizygous) goes nuts and causes cancer. so the gene is haplosufficient but the syndrom is dominant!
 
 Together these reduce from 10^-7 to 10^-9, so 3 errors per rep. That's still a lot considering how often DNA is replicated.
  
-* will those be inherited <strong style="font-size: 150%; color: red;">?</strong>
+* will all syathose be inherited <strong style="font-size: 150%; color: red;">?</strong>
 * no. so if you spill EtBr on your elbow, you may get elbow cancer, but it won't effect your kids. 
 
 These repairs mechanisms are **error-free** in that don't cause new errors.
@@ -158,7 +156,7 @@ How repair? No complementary strand to go off of.
 
 **synthesis-dependent strand annealing.** uses strand invasion similar to what happens in recombination to repair one chromosome using the homolog as a template (instead of other strand). when can this happen <strong style="font-size: 150%; color: red;">?</strong> dividing cells only.
 
-**NHEJ nonhomologous end joining**. enzymes that grab on to broken ends to prevent further problems, trim, and then ligase joins back together. when can this happen <strong style="font-size: 150%; color: red;">?</strong> anytime. and most cells are not undergoing division most the time.
+**NHEJ nonhomologous end joining**. enzymes that grab on to broken ends to prevent further problems, trim, and then ligate joins back together. when can this happen <strong style="font-size: 150%; color: red;">?</strong> anytime. and most cells are not undergoing division most the time.
 
  
 

@@ -1,15 +1,18 @@
-# BIS101 F2013 Lecture 14: Proteins
+# BIS101 F2013 Lecture 10: Proteins
+
 
 
 DNA -> transcription -> RNA -> translation -> protein
 
 ## Protein
 
-A chain of amino acids. Called a **polypeptide** (DRAW)
+A chain of amino acids. Called a **polypeptide** 
+
+Draw an amino acid. Redraw with H for R group (glycine) <strong style="font-size: 150%; color: red;">?</strong>
 
 <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/AminoAcidball.svg/702px-AminoAcidball.svg.png" style="width: 200px;"/>
 
-Has an amino end and a carboxyl end. Polypeptide/protein is formed by bonding of amino acids. (show). Lose one H2O molecule and make covalent bond.
+Has an amino end and a carboxyl end. Polypeptide/protein is formed by bonding of amino acids. (show). Lose one H2O molecule (OH from carboxyl and H from amino) and make covalent bond.
 
 Protein has an N and C terminus of a protein, convention is to write N->C direction but this is not fundamental directionality same way 5' to 3' is.
 
@@ -17,19 +20,19 @@ Can one gene make more than one protein <strong style="font-size: 150%; color: r
 
 Parts of a sequence that have a particular function (e.g. DNA-binding) are referred to as a **domain** 
 
-How do proteins know where to go? Often include a short bit of AA at beginning that functions as a **signal sequence**. This bit removed when protein arrives to right part of cell and is further processed.ß
+How do proteins know where to go? Often include a short bit of AA at beginning that functions as a **signal sequence**. This bit removed when protein arrives to right part of cell and is further processed.
 
 Combo of all proteins in the cell <strong style="font-size: 150%; color: red;">?</strong> The proteome.
 
 ## Genetic code
 
-Already discussed how DNA/RNA come in triplets called codons that code for amino acids.  Show top left of Figure. Leucene vs Phen. for 3rd position. Leucene for 3rd position  and Leucine vs. Proline for 2nd position. Synonymous vs. non.
+Already discussed how DNA/RNA come in triplets called codons that code for amino acids.  Show top left of Figure. Leucene vs Phen. for 3rd position. Leucene for 3rd position  and Leucine vs. Proline for 2nd position. Synonymous vs. non. <strong style="font-size: 150%; color: red;">?</strong>
 
-<img src="/Users/jri/src/bis101/griffiths/ch09/figure_09_05.jpg" style="width: 500px;"/>
+<img src="/Users/jri/Documents/courses/bis101/griffiths/ch09/figure_09_05.jpg" style="width: 500px;"/>
 
-These are recognized by a special RNA called a transfer RNA
+These are recognized by a special RNA called a transfer RNA or tRNA
 
-<img src="/Users/jri/src/bis101/griffiths/ch09/figure_09_06a.png" style="width: 400px;"/>
+<img src="/Users/jri/Documents/courses/bis101/griffiths/ch09/figure_09_06.jpg" style="width: 400px;"/>
 
 Two active parts are AA attachment site and **anticodon** loop.  If mRNA has GCA what will anticodon be <strong style="font-size: 150%; color: red;">?</strong> CGU
 
@@ -41,13 +44,13 @@ But organisms don't need to have 61 tRNAs (why 61 and not 64<strong style="font-
 
 So how do we have <61 tRNAs recognize 61 codons?  Wobble rule. Codon-anticodon pairing is a tad more relaxed than normal DNA-DNA or DNA-RNA pairing.
 
-<img src="/Users/jri/src/bis101/griffiths/ch09/table_09_01.jpg" style="width: 300px;"/>
+<img src="/Users/jri/Documents/courses/bis101/griffiths/ch09/table_09_01.jpg" style="width: 300px;"/>
 
 ## Ribosomes
 
 Molecular machines that make protein from RNA. Comprised of small subunit, large subunit, and each is a complex of large number of ribosomal proteins and several ribosomal RNA. 
 
-<img src="/Users/jri/src/bis101/griffiths/ch09/figure_09_12b.jpg" style="width: 500px;"/>
+<img src="/Users/jri/Documents/courses/bis101/griffiths/ch09/figure_09_12b.jpg" style="width: 500px;"/>
 
 DRAW. label LG and SM subunits. label EPA (will come back to). label tunnel, draw polypeptide chain. label decoding center and peptidyltransferase center. show mRNA 5' and 3'.
 
@@ -57,7 +60,7 @@ Some antibiotics work by binding to specific regions of ribosomal RNA and blocki
 
 #### Initiation
 
-We know first codon of the protein is <strong style="font-size: 150%; color: red;">?</strong> AUG which is <strong style="font-size: 150%; color: red;">?</strong> methionine. But how ribosome knows where to start?
+We know first codon of the protein is <strong style="font-size: 150%; color: red;">?</strong> AUG which is <strong style="font-size: 150%; color: red;">?</strong> methionine. But how does ribosome knows where to start?
 
 Prokaryotes have **Shine-Delgarno** sequence (often AGGAGGU) which binds small subunit and proteins called **initiation factors**, grabs the intitiation tRNA (different from standard methionine tRNA) then binds large subunit and starts translating.
 
@@ -70,7 +73,7 @@ In Eukaryotes initiation factors and small subunit recognize the 5' cap placed o
 
 Ribosome moves 5'->3' along mRNA. 
 
-what does each center do <strong style="font-size: 150%; color: red;">?</strong>
+what does each site do?
 
 A (aminoacyl) site binds incoming tRNA w/ matching codon
 
@@ -93,7 +96,7 @@ For proteins shape matters -- how it's folded often determins what it does. e.g.
 Protins have several levels of structure:
 
 * **Primary** structure: sequence of the protein
-* **Secondardy** strcuture: folding of the polypeptide. Common ones include a alpha-helix, and a pleated sheet (like a folding screen)
+* **Secondardy** structure: folding of the polypeptide. Common ones include a alpha-helix, and a pleated sheet (like a folding screen)
 * **Tertiary** structure: folding of secondary structures
 * **Quaternary** structure: combination of multiple subunits. e.g. hemoglobin is multiple subunits joined by weak bonds. **Dimer** if two subunits. **Homodimer** vs. **heterodimer**.
 
@@ -107,7 +110,7 @@ fold.it video game
 
 #### Modifications
 
-Phosphorylation: can change shape because phosphate groups negatively charged. (serine, threonine, tyrosine). Done by kinases. Ev. of importance is there are > 1000 kinases in many organisms!
+Phosphorylation: can change shape because phosphate groups negatively charged. (serine, threonine, tyrosine). Done by kinases. Evidence of importance is there are > 1000 kinases in many organisms!
 
 We already saw acetylation and methylation of lysine in histone proteins.
 

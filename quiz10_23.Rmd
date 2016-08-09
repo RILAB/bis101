@@ -1,0 +1,32 @@
+---
+title: "quiz_10_23"
+output: html_document
+---
+# Q1
+
+In a population of rabbits on an island, black color is dominant to white color. You know coat color in this population is controlled by a single gene from a complementation test. You need white rabbits for your rabbit breeding business, so you trap all the white rabbits from the island and take them home, leaving behind all the black rabbits. You come back in 10 years and see that about half of the rabbits on the island are white. Assuming no rabbits migrated to the island, and there is no mutation, how can this happen?
+
+# Q2
+
+A population of brain slugs from the Spleef Nebula have two color alleles, A for green and a for yellow. One yellow brain slug decides to move to the Voltron Nebula. Apparently, brain slugs are hermaphrodites, and the yellow brain slug self-fertilizes, produces 100 progeny, and then explodes. The frequency of the a allele in the new population is 0.5.
+
+What was the genotype of the original brain slug? 
+
+#Q3 
+
+75% of the original 100 progeny were yellow. For 100 years, the population was completely isolated and relatively small.  Upon return to survery the population only 4% of the brain slugs are green. What is the frequency of A in the population? If color has no effect on survival, what process did allele frequencies change?   
+
+Frequency (A) = 0.2
+Process: Genetic drift 
+
+# Q4
+
+A recessive lethal mutation is found at a frequency of 10% in the population.  What's the mutation rate for the lethal allele?
+
+  0.01
+
+# Q5
+
+RXFP2 also affects whether female sheep have normal horns, scurred horns, or polled horns. What impact does the genotype at RXFP2 have on reproductive success in female sheep?
+
+  The RXFP2 gene does not impact female survival, reproductive success, or fitness. Different horn     types in females occur due to selection in males driving allele frequencies in the population.

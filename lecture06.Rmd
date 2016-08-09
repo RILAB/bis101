@@ -1,0 +1,261 @@
+# BIS101 F2013 Lecture 6: Population Genetics
+
+## Population genetics
+
+#### What is a population?
+
+a group of individuals of the same species, usually within some geographically delimited area, usually with the possibility of intermating
+
+#### Evolution: 
+change in frequency of an allele over time (not the same as natural selection)
+
+#### Frequency 
+
+| $A_1A_1$        | $A_1A_2$           | $A_2A_2$   |
+| ------|-------|------|
+| 20     | 13 | 17 |
+
+- what's the *genotype frequency* of $A_1A_1$ <strong style="font-size: 150%; color: red;">?</strong> 40% (20/50)
+- what is the allele frequency of $A_2$ <strong style="font-size: 150%; color: red;">?</strong> (p=47% or 0.47 because 34+13/100)
+- what is the frequency of $A_1$ <strong style="font-size: 150%; color: red;">?</strong> (1-p)=0.53 b/c has to add to 1
+    
+I come back in 10 years, pop is now $A_1A_1$ 80 $A_1A_2$ 52 and $A_2A_2$ 68 
+
+Has evolution occurred <strong style="font-size: 150%; color: red;">?</strong> (not at this locus)
+
+**Population genetics is the study of allele frequency change in populations**
+
+Could argue it is synonymous with evolution
+
+We also care about it because it has effect on phenotypes!
+
+In talking quant gen, we showed phonos for a cross where at each het we have 1:2:1 segregation in F2, but in a population phenotype distribution determined by allele freqs.
+
+So distribution would be freq. of genotype * value, e.g.
+
+Using our model of two loci with each big letter adding 1 to phenotype, @ locus A $p_A=0.2$ and at locus B $p_B=0.3$
+
+<img src="/Users/jri/Documents/courses/bis101/fall2013/images/pheno_pop.pdf" style="width: 300px;"/>
+
+Mean phenotype in the population = 1 (what's frequency of AA? 0.04, of AABB? 0.2*0.2*0.3*0.3 = 0.0018 and phenotype ??? 4 ). frequency of aabb <strong style="font-size: 150%; color: red;">?</strong>  0.8*0.8*0.7*0.7 = 0.3136
+
+Now change allele frequencies to pA=0.5 and pB=0.9 and redraw. New mean phenotype = 2.8. So allele frequencies will affect mean phenotype in pop without changing any of the genetics!
+
+## Hardy-Weinberg Equilibrium
+
+- We talked about Mendel.  HWE **NOT** 1:2:1
+- Hardy & Weinberg 1908 (Hardy palyed crickey w/ Punnet)
+  - How to solve provlem of blending & loss of diversity
+- Model (what's a model <strong style="font-size: 150%; color: red;">?</strong> ) (what's an equilibrium?)
+	- model is a simplified description (mathematical) of a system
+	- most of the time oversimplified -- "all models are wrong, some models are useful"
+	- focus on the important parts of a system (noise in biology)
+	- allow predictions of expected outcome & comparison to real data
+	- if obs. data do not fit model -- biological interesting
+	- assumptions wrong, try new model
+	- what if data fit model? (my model is that aliens came down from outerspace and put chalk in the room)
+	- data  consistent w/ model doesn't PROVE model (that's how science works)
+
+### HW Model (write on board assumptions)
+
+Assumptions:
+
+- autosomal (which is? )
+- locus, 2 alleles, diploid 
+- mendelian segregation
+- random mating
+- no other evol. forces (which?)
+  - no selection
+  - no migration
+  - no mutation
+  - no drift (large. pop size -> inf.)
+- equal freq. in both sexes (or all hermaphrodites)
+- generations discrete and nonoverlapping (annual plant) (explain)
+
+### Define variables (observed outcome of a system), parameters (things that define the model or system)
+
+variables - X, Y, Z obs. freqs of 3 genotypes ($A_1A_1$, $A_1A_2$, $A_2A_2$) in our sample
+
+parameter p = freq. $A_1$ allele, q=freq. $A_2$ allele = 1-p (why?)
+
+if we have sample (not whole pop) of 18 $A_1A_1$ and 24 $A_1A_2$ and 8 $A_2A_2$
+
+X=0.36, Y=0.48, Z=0.16
+
+$p=X+\frac{Y}{2}=0.6$ (60 copies of A/100 total copies)
+
+### Equations
+ 
+In next generation:
+
+Gamete Table | prob. $A_1$ from parent1 | prob $A_2$  from parent1
+--- | --- | ---
+prob $A_1$ from parent2 | $pp$ | $p(1-p)$  
+prob $A_2$ from parent2 | $(1-p)p$ | $(1-p)(1-p)$ 
+
+use prime to denote next generation
+
+$X'=p^2$
+$Y'=p(1-p)$  
+$Z'=(1-p)^2$  
+
+and $p'=X'+Y'/2$
+
+and substituting: $p'=p^2+2p(1-p)/2 = p$ <- equilibrium
+
+** In HWE, genetic composition (genotype and allele freqs) predictable w/ one parameter -> p **
+            
+Once in HWE, allele freqs. do not change (equilibrium) w/o disturbance
+
+After a single generation of random mating -> HWE
+
+- start with 0.2 $A_1A_1$ and 0.8 $A_2A_2$ -> figure out what's p, and what's p' -> HWE after one generation
+
+### Conclusions
+
+Single generation of random mating will almost always -> HWE
+
+Rare alleles more common in hets (p^2 < 2pq for whenever p < q)
+
+<img src="/Users/jri/Documents/courses/bis101/fall2013/images/HWE.jpg" style="width: 300px;"/>
+
+Does dominance change HWE?
+- no because we haven't said anything about phenotype -- just genotype
+- so will recessive alleles go extinct <strong style="font-size: 150%; color: red;">?</strong>
+            
+Surprising # of loci in diff. organisms cannot reject HWE 
+- does this mean no selection, drift, mutation <strong style="font-size: 150%; color: red;">?</strong>  why not?
+
+Informative: e.g. red hair. melanocortin 1 receptor MCR1. position 478 in the gene, if you are homozygous for the TT allele instead of the dominant C allele, you are a redhead with freckles.
+
+In the US, the T alleles is at ~8% frequency.  So redheads should be at what freq <strong style="font-size: 150%; color: red;">?</strong> = 0.64%. But between 2-6% of the population has red hair. What do conclude? 
+
+* assortative mating: maybe redheads mate with other redheads
+* selection: maybe redheads are going to take over the world (unlikely)
+* gene flow: immigration from countries with lots of redheads (irish, etc.?)
+* multiple loci: maybe MCR1 is not only locus involved
+  -- in fact we know there are multiple mutations in MCR1 that can cause redhead, so a likely option.
+
+Can use Chi-square to test if loci are in HWE!
+
+- e.g.sample AA= 72 (68.1) Aa = 21 (28.9) aa = 7 (3.1) <- show this for yourself
+ 
+	- X^2 >7.28 so not in HWE (tell them to show for selves)
+- e.g. AA= 82 Aa = 38  aa = 5
+
+	- is in nigh-perfect HWE (test it)
+
+### Violate an assumption
+
+Can show effects of violating an assumption (nonequal # of sexes etc.)
+
+Some assumptions have sm. FX 
+
+- nonequal sexes, takes longer than 1 gen of random mating to reach HWE but still reach it 
+- drift or selection -> never reach
+- nonrandom mating: include parameter F and can rewrite HWE with inbreeding coefficient
+
+## DRIFT
+
+in HWE with $N==\infty$ inf what happens to allele freqs over time (nothing)
+
+in small pops, random chance is imp. (think about freq. heads depends on sample size)
+
+Smaller N -> more drift; Bigger N -> less drift
+
+Draw on board 6 individuals  (1 AA 3 Aa 2 aa ) (can do X^2 and show sample does not reject HWE)
+
+- If this is whole pop.: (calculate freqs.) use die roller app to pick mates for next gen.
+- Recalculate freqs. (has evolution happened?)
+- do a couple more (maybe until fixation?)
+
+Other things associated with drift (define):
+
+- bottleneck
+- founder effect
+
+Other deviations from HWE cause drift -- separate sexes, etc, uneven offspring production.  Humans have as much drift as a theoretical pop of size 10K in spite of being 7Billion of us!
+
+Effective pop size: size of a theoretical population meeting all assumptions that has same allele freq. behavior as your pop.
+
+- because most pops violate assumptions, Ne almost always << N
+- Ne is what matters for drift. 
+ 	- Big census size w/ lots of size fluctuation similar drift to smaller pop w/ constant size
+- e.g. Ne for Humans is 10K
+- for dairy cows 100
+- for drosophila 2M
+
+Will skip the math, but:
+
+Drift causes inbreeding: random mating in pop of sample 10, soon you're mating w/ relatives by random!
+
+Chance of fixation = frequency. So most new mutations (at freq. 1/2N) are lost by to drift!
+
+Differences between species: 2N\*mu mutations per gen. * 1/2N chance of fixing = mu differences between species per gen. (or between genes, i.e. Ks)
+
+## Selection
+
+Natural Selection not same as evolution 
+
+- change in frequency of a variant due to its effect on fitness
+- multiple components to fitness: viability, mating success, fecundity
+- Think in terms of relative fitness: some most fit genotype, and all other genotypes are competing with it
+- variant that makes you compete better and make more copies of your genes -> natural selection will increase freq.
+
+Fitness Table 
+
+Genotype | $A_1A_1$ | $A_1A_2$ | $A_2A_2$
+--- | --- | --- | ---
+Freq. | $p^2$ | $2p(1-p)$ | $(1-p)^2$
+Fitness | $w_{11}$ | $w_{12}$ | $w_{22}$
+ 
+relative fitness of $A_1A_1$ is $w_{11}$  
+
+- not faster than the bear, faster than the other guy
+
+mean fitness of populatons is weighted avg.
+
+\bar{w} = $p^2w_{11}+2p(1-p)w_{12}+w_{22}(1-p)^2$
+      
+genotype freq. change depends on rel. fitness, so
+
+- $X'=\frac{p^2w_{11}}{\bar{w}}$
+- $Y'=\frac{2p(1-p)w_{12}}{\bar{w}}$
+- $Z'=\frac{(1-p)^2w_{22}}{\bar{w}}$
+
+can do some math and show allele freq:
+
+- $p'= \frac{p(pw_{11}+(1-p)w_{12})}{\bar{w}}$
+       
+### results: 
+
+- change in allele freq. depends on difference in fitness b/t heterozygote and homozygote for the allele
+- allele freq. (greater change with more middling allele freq)
+- stronger s -> faster change in p,
+- this general formula allows variation. 
+	- e.g. w11=1 w12=1-s w22=1-2s -- when het is intermediate additive or incomplete dominance
+	- w11=1 w12=1 w22=1-s (dominance of $A_1$)
+	- w11=1 w12=1-s w22=1-s (recessive $A_1$)
+- draw graph for recessive, dominant, codominant             
+           
+<img src="/Users/jri/Documents/courses/bis101/fall2013/selection.jpg" style="width: 350px;"/>
+
+
+## Other forces
+
+Gene flow: movement of genes from one population to another
+
+- can impact allele frequencies and counteract selection and drift
+- different pops should drift independently, but even one migrant/generation enough to prevent extensive divergence
+
+Mutation
+
+- fairly straightforward, increases freq of particular allele
+
+## Combos
+
+Mutation-selection balance:
+
+- assuming selection against recessive: $p=\frac{\mu}{s^0.5}$
+- for a completely recessive mutation, even under lethal selection (s=1) the freq. of A will be $\mu$ 
+

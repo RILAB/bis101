@@ -1,69 +1,41 @@
-# BIS101 F2013 Lecture 7: Genomics and Phylogenetics
+# BIS101 F2013 Lecture 7: Macroevolution and Phylogenetics
 
 ## Notes
 
-TEST!!
-
-Halloween!
+Instead do echolocation paper!
 
 ## Reading
 
 All of Ch. 17. Check syllabus for updates. HW and reading updates as we go along
  
 
-## Genomics
-what is "the genome"?
-
-what's it good for:
-
-* reference for understanding function, mechanism, evolution
-* a "map" on which you place other information
-* show browser
-
-sequencing costs. human genome cost $3 billion dollars
-
-* now to **resequence** genome only $4K.
-* by time any of you is a Dr. human genom seq. < $1K (cheaper than any genetic test)
-
-What can you do w/ sequencing <strong style="font-size: 150%; color: red;">?</strong>
-
-* learn the sequence: detect **SNPs** and other variants
-* bisulfite seq. - methylated C's -> T seq. compare to normal for epigenetic change. (can tell how old someone is by their methylation changes!)
-* transcriptome
-* proteome
-* nuclease digestion
-* CHip-seq seq. all DNA bound by protein
-
-I can sequence your entire genome in 27 hours. In very near future, you will go to Dr. and to diagnose they may:
-
-- sequence your transcriptome (what is?) at time series along the day to identify genes regulated oddly or responding to infection etc.
-- multiple tissues: sequencing tumors to figure out what is wrong or find mutation
-- methylome, etc. etc.
-- proteome to see if some protein level is off.
-
-good example of why programming important for biology -- genetic analysis is a computational discipline
-
-* i sequence your genome, I get 90Gb of A,C,T,G plus related information -- 200Gb of data to analyze. can't do that in excel.
-* show fastq file.
-
-## How to sequence a genome
-
-You can't just sequence end to end each chromosome.
-
-Whole-genome shotgun -- draw chromosome, sequences, assembly.
-
-Resequencing is easier (but still tricky) as you are mapping to "known" reference.
-
-* as we saw w/ Liu et al. paper, ref. is not static!	
-## Annotation
-
-so how do i know where the genes are? how to annotate <strong style="font-size: 150%; color: red;">?</strong> 
-
-- RNA sequence, protein sequence, computational translation and comparison to known databases
-
 ## Phylogenetics
 
-Study of evolutionary relationships among species. Will not get into much detail here.
+Study of relationships among genes and species. Important for understanding not just how things are related, but using that information to learn about function, mechanistic basis of function, both of genes and phenotypes.
+
+Go through C4 tree.
+
+Then bat/dolphin. Draw out inference if dolphin/bat closest. One or multiple <strong style="font-size: 150%; color: red;">?</strong>
+
+Then add cow and ask gain vs. loss <strong style="font-size: 150%; color: red;">?</strong>
+
+Then look at real phylogeny. Gain multiple times. So similar or differen genetic basis <strong style="font-size: 150%; color: red;">?</strong>
+
+Predict different, but in this case similar. What does that tell you? Limited number of genes that can be changed to gain echolocation. Actually same parts of some of these genes changed in same way!
+
+### Inferring function:
+
+How do know how much of the genome is functional?
+
+Well, let's look at a gene, makes a transcript, and a protein.  Functional <strong style="font-size: 150%; color: red;">?</strong>
+
+Human exome (<strong style="font-size: 150%; color: red;">?</strong>) is 100Mb (how much <strong style="font-size: 150%; color: red;">?</strong> ).  But human genome is <strong style="font-size: 150%; color: red;">?</strong> (3Gb)
+
+What about the rest? 
+
+Draw human, chimp, orangutan, cow.  Draw a sequence present in only human and one present in all of them.  Which more likely to be functional <strong style="font-size: 150%; color: red;">?</strong> 
+
+## How to build?
 
 Usually use gene sequences to determine relatedness.  For example:
 
@@ -87,33 +59,56 @@ Platypus
 
     GTCTTA
 
-**Parsimony** (<strong style="font-size: 150%; color: red;">?</strong>) method, but really people use whole genomes and very complex statistical methods. We will not go into these details. 
+**Parsimony** (<strong style="font-size: 150%; color: red;">?</strong>) method.  Method that requires the fewest changes -- the simplest.
+
+Draw one wrong tree.  Redraw better tree.
+
+Really people use whole genomes and very complex statistical methods. We will not go into these details. 
 
 Draw tree, label nukes. Define **outgroup** allowing you to put an ancestral root on the tree.
 
-Does this mean platypus is "basal" or "ancestral" to all mammals <strong style="font-size: 150%; color: red;">?</strong> No.
+Does this mean platypus is "basal" or "ancestral" to all mammals <strong style="font-size: 150%; color: red;">?</strong> No. Explain same distance
 
-Useful for understanding when things evolved, for identifying conservation, for studying gene origin and evolution.
+## Gene tree vs. species tree
+
+This has assumed all Cats have one sequence.  This works for distantly related lineages where all differences are fixed. 
+
+But populations are polymorphic for different gene sequences. And multiple alleles segregating.
+
+Draw species tree of humans, chimps, gorilas.
+
+<img src="/Users/jri/Documents/courses/bis101/fall2014/images/venema_20_7.jpg" style="width: 400px;"/>
+
+We actually predict this to be common. 
+In fact 25% genes are more related to gorilla than chimp.  And 1% closer to orangutan than chimp!
+
 
 ## Gene duplication
 
 **Homolog** closely related gene.
 
-Two kinds.
+Genes can be copied and duplicated over time, and gene families can grow and shrink. 
 
-**ortholog paralog**
+This leads to two kinds of homologs.
+
+**ortholog** vs **paralog**
 
 separated by speciation vs. separated by duplication
 
-draw examples.ß
+<img src="/Users/jri/Documents/courses/bis101/fall2014/images/ortholog.jpg" style="width: 400px;"/> 
 
-duplication important form of change.
+But draw star earlier.  Key to difference is idnetifying where on tree duplications have occurred.  Then just ask how genes are seaparated by tracing back.
+
+Remove human and ask ortholog/paralog.
+
+Draw genes at tips and at duplication event
 
 define **synteny**
 
 draw how synteny can inform which gene is ortholog.
 
-fates of a new gene duplicate: Sub vs. neo vs. pseudo
+fates of a new gene duplicate: 
+Subfunctionalization vs. neofunctionalization vs. pseudofunctionalization
 
 what would happend to a pseudogene over time?   
 

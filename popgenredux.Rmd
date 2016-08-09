@@ -1,0 +1,169 @@
+---
+title: "popgenredux"
+output: html_document
+---
+
+# Go over HWE again.  
+
+* Obs. Counts  
+* Obs. Genotype freq.  
+* Obs. Allele freq.  
+* Expected genotype freq.  
+* Expected genotype counts  
+* Chi-squared
+
+You observe the following genotypes in a natural population: AA 5; Aa 38; aa 82. What is the allele frequency of A?
+  
+	p=0.192
+
+What are the expected counts of the AA, Aa, and aa genotypes? (use p=0.2 if you couldn't answer part 1)
+	
+	f_AA = 0.0368, but in population of 125, so expect 4.6
+	f_Aa = 0.3103, but in population of 125, so expect 38.8
+	f_aa = 0.6529, but in population of 125, so expect 81.6
+
+Is this population in Hardy-Weinberg Equilibrium? Hint: chi-square > 3.84 is significant.
+
+	Yes. 
+	chisquare=((5-4.6)^2)/4.6 + ((38-38.8)^2/38.8) + ((82-81.6)^2/81.6)
+	chisquare=0.053
+	0.053 < 3.84
+  
+# Conclusions
+
+Single generation of random mating will almost always -> HWE
+
+Rare alleles more common in hets (p^2 < 2pq for whenever p < q)
+
+<img src="/Users/jri/Documents/courses/bis101/fall2013/images/HWE.jpg" style="width: 300px;"/>
+
+Does dominance change HWE?
+- no because we haven't said anything about phenotype -- just genotype
+- so will recessive alleles go extinct <strong style="font-size: 150%; color: red;">?</strong>
+            
+Surprising # of loci in diff. organisms cannot reject HWE 
+- does this mean no selection, drift, mutation <strong style="font-size: 150%; color: red;">?</strong>  why not?
+
+# Q1
+# Q2
+
+### Violate an assumption
+
+Can show effects of violating an assumption (nonequal # of sexes etc.)
+
+Some assumptions have sm. FX 
+
+- nonequal sexes, takes longer than 1 gen of random mating to reach HWE but still reach it 
+- drift or selection -> never reach
+- nonrandom mating: include parameter F and can rewrite HWE with inbreeding coefficient
+
+## DRIFT
+
+in HWE with $N==\infty$ inf what happens to allele freqs over time (nothing)
+
+in small pops, random chance is imp. (think about freq. heads depends on sample size)
+
+Draw on board 6 individuals  (1 AA 3 Aa 2 aa ) (can do X^2 and show sample does not reject HWE)
+
+- If this is whole pop.: (calculate freqs.) use die roller app to pick mates for next gen.
+- Recalculate freqs. (has evolution happened?)
+- do a couple more (maybe until fixation?)
+
+Smaller N -> more drift; Bigger N -> less drift (but still nonzero)
+
+Other things associated with drift (define):
+
+- bottleneck
+- founder effect
+
+Other deviations from HWE cause drift -- separate sexes, etc, uneven offspring production.  Humans have as much drift as a theoretical pop of size 10K in spite of being 7Billion of us!
+
+Effective pop size: size of a theoretical population meeting all assumptions that has same model allele freq. behavior as your pop.
+
+- because most pops violate assumptions, Ne almost always << N
+- Ne is what matters for drift. 
+   - Big census size w/ lots of size fluctuation similar drift to smaller pop w/ constant size
+- e.g. Ne for Humans is 10K
+- for dairy cows 100
+- for drosophila 2M
+
+Will skip the math, but:
+
+Drift causes inbreeding: random mating in pop of sample 10, soon you're mating w/ relatives by random!
+
+Chance of fixation due to drift = frequency. So most new mutations (at freq. $\frac{1}{2N}$) are lost by to drift!
+
+Differences between species: $2N\mu$ mutations per gen. * $\frac{1}{2N}$ chance of fixing = $\mu$ differences between species per gen. (or between genes, i.e. Ks)
+
+## Selection
+
+Natural Selection not same as evolution 
+
+- change in frequency of a variant due to its effect on fitness
+- multiple components to fitness: viability, mating success, fecundity
+- Think in terms of relative fitness: some most fit genotype, and all other genotypes are competing with it
+- variant that makes you compete better and make more copies of your genes -> natural selection will increase freq.
+
+Fitness Table for locus that affects fitness
+
+Genotype | $A_1A_1$ | $A_1A_2$ | $A_2A_2$
+--- | --- | --- | ---
+Freq. | $p^2$ | $2p(1-p)$ | $(1-p)^2$
+Fitness | $w_{11}$ | $w_{12}$ | $w_{22}$
+ 
+relative fitness of $A_1A_1$ is $w_{11}$  
+
+- not faster than the bear, faster than the other guy
+
+mean fitness of populaton is avg. weighted by frequency
+
+\bar{w} = $p^2w_{11}+2p(1-p)w_{12}+w_{22}(1-p)^2$
+      
+genotype freq. change depends on rel. fitness, so
+
+- $X'=\frac{p^2w_{11}}{\bar{w}}$
+- $Y'=\frac{2p(1-p)w_{12}}{\bar{w}}$
+- $Z'=\frac{(1-p)^2w_{22}}{\bar{w}}$
+
+can do some math and show allele freq:
+
+- $p'= \frac{p(p^2 w_{11}+p(1-p)w_{12})}{\bar{w}}$
+       
+### results: 
+
+- change in allele freq. depends on difference in fitness b/t heterozygote and homozygote for the allele
+- allele freq. (greater change with more middling allele freq)
+- stronger s -> faster change in p,
+- this general formula allows variation. 
+	- e.g. w11=1 w12=1-s w22=1-2s -- when het is intermediate additive or incomplete dominance  
+	- w11=1 w12=1 w22=1-s (dominance of $A_1$)  
+	- w11=1 w12=1-s w22=1-s (recessive $A_1$)  
+  - what would this be for neutral locus?  
+- draw graph for recessive, dominant, codominant             
+           
+<img src="/Users/jri/Documents/courses/bis101/fall2013/selection.jpg" style="width: 350px;"/>
+
+Ask to interpret graph *???*
+
+## Q3
+
+## Other forces
+
+Gene flow: movement of genes from one population to another
+
+- can impact allele frequencies and counteract selection and drift
+- different pops should drift independently, but even one migrant/generation enough to prevent extensive divergence
+
+Mutation
+
+- fairly straightforward, increases freq of particular allele
+
+## Combos
+
+Mutation-selection balance:
+
+- assuming selection against recessive: $p=(\frac{\mu}{s})^0.5$
+- for a completely recessive mutation, even under lethal selection (s=1) the freq. of A will be $\mu^0.5$ 
+
+## Q4
+## Q5

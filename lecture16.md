@@ -1,22 +1,15 @@
-# BIS101 F2013 Lecture 16: Gene Isolation and Manipulation
+# BIS101 F2014 Gene Isolation and Manipulation
 
 ## Notes
 
-Sanders
-
-Exam: same as last time. More short answer, less problem solving.  Took TA's <2 hours before clarification, both said easier than last exam. Will ask to keep answers brief for faster grading.
-
-Regrades should be done -- check online in case you haven't been emailed.
-
-Online evaluations. Please do! Especially constructive changes -- order of chapters, how best to incorporate papers, do you have a better suggestion than the papers?
-
-Uploaded some slides on tb1 for this week's paper.
 
 ## Gene manipulation
 
 In vitro vs. in vivo (vs. in silico)
 
 ## PCR
+
+What do you need <strong style="font-size: 150%; color: red;">?</strong> 
 
 Need primer homologous to sequence of interest.
 Nucleotides
@@ -28,24 +21,25 @@ Work through two rounds of PCR
 
 ## cDNA
 
-Can use reverse transcriptase to amplify RNA and make cDNA. What would you use as a primer<strong style="font-size: 150%; color: red;">?</strong> T's to match poly-A tail.
+Can use reverse transcriptase (talk) to amplify RNA and make cDNA. What would you use as a primer<strong style="font-size: 150%; color: red;">?</strong> T's to match poly-A tail.
 
 RT then makes single-strand DNA complement. Then can sequence, transform, etc. Often useful for putting genes in bacteria or other organisms so no need to worry about correct splicing.
 
 ## Sequencing
 
-#### Dideoxy 
+<!--#### Dideoxy 
 
 (RIP Fred Sanger). Do PCR with a special nucleotide that blocks sythesis (lacks hydroxyl groups so later nucleotides cannot be added). Do four times once with special A, T, etc.
 
 Result is set of fragments of different lengths corresponding to where special nucleotide was inserted (draw example seq. with A fragments, C fragments, etc.
 
 Run the PCR done with A out on gel, get sizes. That tells you where A's were.  Etc.
+-->
 
-#### Fancier
+<!--#### Fancier
 
 Dideoxy w/ flourescent nukes, can run all at once and look at color of fragment to get base
-
+-->
 #### Even fancier
 
 Sequencing by synthesis. Illumina. Chop up DNA. Add adapter seq. 
@@ -60,15 +54,18 @@ Draw how image on chip of red-blue-blue-green-red gives sequence.
 
 $2.50 for 500bp of Dideoxy
 
-$2.50 for 50,000,000bp of Illumina
+$2.50 for 75,000,000bp of Illumina (was 50M last year)
 
 ## Cloning
 
 Restriction enzymes <strong style="font-size: 150%; color: red;">?</strong> . Proteins that cut DNA. Can leave blunt or sticky ends.
 
-e.g. EcoRI GAATTC cuts at first G on both strands (show). Where else have we seen sticky ends from restriction enzymes<strong style="font-size: 150%; color: red;">?</strong> TE insertion sites.
+e.g. EcoRI GAATTC cuts at first G on both strands (show). 
 
-Sequences will have multiple restriction sites. Presence absence of sites can be found by running on gel. Can separate DNA based on size. DNA negatively charged, so can run current and DNA moves through gel.
+<!--Where else have we seen sticky ends from restriction enzymes<strong style="font-size: 150%; color: red;">?</strong> TE insertion sites.
+-->
+
+Sequences will have multiple restriction sites. Presence absence of sites can be found by running on gel. Can separate DNA based on size. How <strong style="font-size: 150%; color: red;">?</strong>  DNA negatively charged, so can run current and DNA moves through gel., with larger fragments moving slower.
 
 These size fragments can be used as a marker! I do a digest of two individuals and their offsrping, places where they have different restriction sites will show up as different sized bands.  Presence/absence of these bands will segregate in offspring, and I can build genetic map.
 
@@ -83,7 +80,7 @@ Useful cloning plasmid needs:
 * origin of replication (why<strong style="font-size: 150%; color: red;">?</strong> ) to replicate in host cell
 * restriction sites (why <strong style="font-size: 150%; color: red;">?</strong> ) 
 * reporter (antibiotic resistance) for <strong style="font-size: 150%; color: red;">?</strong> knowing plasmid made it into bacteria
-* often will include reporter to break (lacZ) <strong style="font-size: 150%; color: red;">?</strong> so you know it has gene in there.  lacZ + beta-X-gal makes blue dye product.  So white colonies that survive = gene!
+* often will include reporter to break (lacZ). why?  <strong style="font-size: 150%; color: red;">?</strong> so you know it has gene in there.  lacZ + beta-X-gal makes blue dye product.  So white colonies that survive = gene!
 
 <img src="http://www.sigmaaldrich.com/content/dam/sigma-aldrich/life-science/molecular-biology/t7ampr.Par.0001.Image.gif" style="width: 300px"/>
 
@@ -103,13 +100,17 @@ A number of human proteins are engineerd in e. coli: insulin, HGH, erythropoetin
 
 ## Probing
 
-We can use cloning to make libraries of seuqence (cDNA or DNA). But how do we check for presence of sequence of interest.
+We can use cloning to make libraries of sequence (cDNA or DNA). But how do we check for presence of sequence of interest.
 
 Can use a petri dish of colonies or gel.
 
-Transfer DNA from gel or plate onto a membrane, and wash the membrane with radioactively labelled sequence of interest. Then expose to X-Ray film (results is **autoradiogram**)and find witch band or which colony has sequence. Can also use flourescently tagged DNA and expose to light and photograph. 
+Transfer DNA from gel or plate onto a membrane, and wash the membrane with radioactively labelled sequence of interest. Then expose to X-Ray film (results is **autoradiogram**)and find which band or which colony has sequence. Can also use flourescently tagged DNA and expose to light and photograph. 
 
-Probe for DNA is called a Souther blot (after Dr. Edwin Southern).
+Draw plate with colonies. Draw which ones show up on radiolabelled film.
+
+Also works on a gel!
+
+Probe for DNA is called a Southern blot (after Dr. Edwin Southern).
 Probe for RNA is called a Northern (because someone thought it was funny)
 Probe for DNA uses an antibody, called a Western blot. Could use a non-antibody protein to detect protein-protein interactions. Then a far-western blot. Probe for post-translational modification of protein (phosphoylation etc) called an Eastern blot.
 
@@ -117,21 +118,22 @@ Probe for DNA uses an antibody, called a Western blot. Could use a non-antibody 
 
 Define: transgene: any gene introduced artificially into a genome. Can be from same species!
 
-Anything with a transgene is a transgenci organism or a GMO. 
+Anything with a transgene is a transgenic organism or a GMO. 
 
-I have pretty strong opinions on GMOs and happy to talk about them if anyone's interested. But general fact is that there is no good science arguing that GMOs are dangerous. There is good science showing they are useful. Some might be bad, and some might have ecological consequences.  So testing/regulation a must. 
+I have pretty strong opinions on GMOs and happy to talk about them if anyone's interested. But the fact is that there is no good science arguing that any GMO on the market is dangerous. There is good science showing they are useful. That doesn't mean all GMOs will be perfect, and some might mess with other genes (silencing) or knock out genes, some might coneivably have health risks, and some might have ecological consequences.  So testing/regulation a must. 
 
 Transgene can either replace target gene or insert at dseired locus, or insert **ectopically**
 
-<img src="/Users/jri/Documents/courses/bis101/griffiths/ch10/figure_10_24.jpg" style="width: 300px"/>
-
+<!--<img src="/Users/jri/Documents/courses/bis101/griffiths/ch10/figure_10_24.jpg" style="width: 400px"/>
+-->
 
 #### Yeast
 
-Shuttle vector (yeast and e. coli Ori)
+Shuttle vector (can be used in both yeast and e. coli Ori)
 
 * do gene manipulation (cloning, etc.) in bacteria
 * move into yeast, get homologous recombination -- replace sequence.
+* test function in a eukaryote. has sequences necessary for bacteria (Origin of Rep.), and a yeast Or. Replication and centromere
 
 #### Plants
 
@@ -140,14 +142,14 @@ Agrobacterium
 * T-region, flanked w/ repeats. This region encodes genes that make tumors. multiplies Agro. in plant.
 * virulent region & conjugative  -> proteins to infect cell, transfer DNA, move to nucleus (prob.)
 * make two plasmids
-	- one with virulent/conjugative
-	- one with new genes of interest & antibiotic or antiherbicide. add selectable marker (what is <strong style="font-size: 150%; color: red;">?</strong> ) to be sure you have the transformation vector and/or not the other vector
+	- one with virulent/conjugative & bacterial selectable marker
+	- one with new genes of interest & plant selectable marker (herbicide resistance) (what is <strong style="font-size: 150%; color: red;">?</strong> ) to be sure you have the transformation vector and/or not the other vector
 
-<img src="/Users/jri/Documents/courses/bis101/images/agro.jpg" style="width: 600px"/>
+<img src="/Users/jri/Documents/courses/bis101/fall2013/images/agro.jpg" style="width: 600px"/>
 
 Gene gun: shoot DNA-coated tungsten (or gold) and hope for illegitimate recombination. Rare, so need to do a lot of cells.
 
-Grow up cells in culture -> treat with hormones to get adult plant. Usually hemizygous (<strong style="font-size: 150%; color: red;">?</strong>) so need to self.
+Grow up cells in culture -> treat with hormones to get adult plant. Usually hemizygous (<strong style="font-size: 150%; color: red;">?</strong>) so need to duplicate.
 
 * round-up ready
 * bt toxin
@@ -156,7 +158,7 @@ Grow up cells in culture -> treat with hormones to get adult plant. Usually hemi
 
 #### Animals 
     
-Inject into nucleus of fertilized egg cell (or gonads, etc.). In som animals will get incorporated into germline, and progeny will have mutation.
+Inject into nucleus of fertilized egg cell (or gonads, etc.). In some animals will get incorporated into germline, and progeny will have mutation.
 
 Can also use yeat-like homologous recombination in stem cells. Then insert stem cells into embryo to get transgenic animal.
 
@@ -165,14 +167,27 @@ Can also use yeat-like homologous recombination in stem cells. Then insert stem 
 
 Make libraries of knockouts, knockins for community use.
 
-#### ZFN
+#### CRISPR-CAS
 
-Fancy genome editing: make use of enzymes that recognize specific sequences (Zinc Finger Domain remembered from where <strong style="font-size: 150%; color: red;">?</strong> ).  E.g. Zinc finger nucleases will cause cut at specific site determined by their binding domain. You can engineer the domain.  Cut can lead to:
+a system that evolved in bacteria as a form of defense against viruses, now used for genomic editing.
 
-* deleteion because cut is repiared how<strong style="font-size: 150%; color: red;">?</strong> NHEJ
-* if also transform DNA w/ homologous sequence, can get insertion of new sequence. Allows you to e.g. cut out an A and add in a T.  Not easy to do. 
+CAS9 protein: endonuclease <strong style="font-size: 150%; color: red;">?</strong> (cuts DNA)
 
-And now other technologies used. Advantages are can engineer specific proteins to modify specific site in genome. Disadvantages: harder and often mroe expensive to do.
+gRNA: guide RNA: homology to tagert DNA, also scaffolding properties that allow CAS9 to bind an activate
+
+gRNA+CAS9: makes double-strand cut in DNA
+
+**DRAW**
+
+can be repaired with end joining -- cause deletion
+
+can be repaired with recombination with homologous piece of DNA.
+
+if you insert piece of DNA with new sequence, that new sequence will be incorporated.
+
+Can also bind a transcription factor to inactive (noncutting) CAS9 and target a gene. effect<strong style="font-size: 150%; color: red;">?</strong> to upregulate!  or just bind to say promoter and downregulate!
+
+Caveats: needs CAS9 and gRNA and DNA replacement all in cell.  Hard to do.
 
 
 
